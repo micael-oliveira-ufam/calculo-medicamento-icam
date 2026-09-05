@@ -78,3 +78,26 @@ doses máximas). Para registrar uma nova interação, adicione um objeto em
 | POST   | `/api/calcular-dose-unitaria`| Calcula quantidade (mL, comprimidos, etc.)   |
 | POST   | `/api/calcular-frascos`      | Calcula número de frascos/ampolas necessários|
 | POST   | `/api/avaliar-prescricao`    | Avalia uma prescrição completa (doses + interações) |
+
+## Integração contínua
+
+Todo push e pull request executam automaticamente a suíte de testes
+(`pytest`) via GitHub Actions (`.github/workflows/tests.yml`), em Python 3.11
+e 3.12.
+
+## Contribuindo
+
+Ao abrir um pull request, use o checklist do template padrão
+(`.github/PULL_REQUEST_TEMPLATE.md`). Alterações em `data/medicamentos.json`
+ou `data/interacoes.json` devem ser conferidas com a bula vigente ou o
+protocolo institucional antes de serem mescladas. Para reportar um dado
+clínico incorreto, abra uma issue usando o template "Correção de dado
+clínico".
+
+## Licença
+
+Distribuído sob a licença MIT — veja o arquivo [LICENSE](LICENSE). Isso
+significa que o código pode ser livremente reutilizado e adaptado, mas é
+fornecido "como está", sem garantias; a instituição que o utiliza é
+responsável por validar clinicamente os dados antes de qualquer uso em
+produção (veja o aviso no início deste documento).
