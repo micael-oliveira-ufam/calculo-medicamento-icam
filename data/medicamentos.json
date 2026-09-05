@@ -1,0 +1,445 @@
+[
+  {
+    "id": "paracetamol",
+    "nome": "Paracetamol (Acetaminofeno)",
+    "classe": "Analgésico / Antipirético",
+    "vias": ["VO", "EV", "Retal"],
+    "apresentacoes": [
+      {"forma": "Solução oral 200mg/mL", "concentracao": 200, "unidade": "mg/mL"},
+      {"forma": "Solução oral 32mg/mL", "concentracao": 32, "unidade": "mg/mL"},
+      {"forma": "Comprimido 500mg", "concentracao": 500, "unidade": "mg/comprimido"},
+      {"forma": "Injetável 10mg/mL (frasco 100mL)", "concentracao": 10, "unidade": "mg/mL", "volume_frasco_mL": 100}
+    ],
+    "dose_min_mg_kg_dose": 10,
+    "dose_max_mg_kg_dose": 15,
+    "intervalo_horas_min": 4,
+    "intervalo_horas_max": 6,
+    "dose_max_dia_mg_kg": 75,
+    "dose_max_absoluta_mg_dia": 4000,
+    "observacoes": "Não exceder 5 doses/dia. Ajustar em hepatopatas."
+  },
+  {
+    "id": "dipirona",
+    "nome": "Dipirona (Metamizol)",
+    "classe": "Analgésico / Antipirético",
+    "vias": ["VO", "EV", "IM"],
+    "apresentacoes": [
+      {"forma": "Solução oral 500mg/mL (gotas)", "concentracao": 500, "unidade": "mg/mL"},
+      {"forma": "Injetável 500mg/mL (ampola 2mL)", "concentracao": 500, "unidade": "mg/mL", "volume_frasco_mL": 2}
+    ],
+    "dose_min_mg_kg_dose": 10,
+    "dose_max_mg_kg_dose": 25,
+    "intervalo_horas_min": 6,
+    "intervalo_horas_max": 6,
+    "dose_max_dia_mg_kg": 100,
+    "dose_max_absoluta_mg_dia": 4000,
+    "observacoes": "Risco de agranulocitose (raro). Evitar em < 3 meses."
+  },
+  {
+    "id": "ibuprofeno",
+    "nome": "Ibuprofeno",
+    "classe": "Anti-inflamatório não esteroidal (AINE)",
+    "vias": ["VO"],
+    "apresentacoes": [
+      {"forma": "Suspensão oral 50mg/mL", "concentracao": 50, "unidade": "mg/mL"},
+      {"forma": "Suspensão oral 20mg/mL", "concentracao": 20, "unidade": "mg/mL"},
+      {"forma": "Comprimido 400mg", "concentracao": 400, "unidade": "mg/comprimido"}
+    ],
+    "dose_min_mg_kg_dose": 5,
+    "dose_max_mg_kg_dose": 10,
+    "intervalo_horas_min": 6,
+    "intervalo_horas_max": 8,
+    "dose_max_dia_mg_kg": 40,
+    "dose_max_absoluta_mg_dia": 2400,
+    "observacoes": "Evitar em < 6 meses, desidratação, doença renal ou varicela."
+  },
+  {
+    "id": "amoxicilina",
+    "nome": "Amoxicilina",
+    "classe": "Antibiótico (Penicilina)",
+    "vias": ["VO"],
+    "apresentacoes": [
+      {"forma": "Suspensão oral 250mg/5mL", "concentracao": 50, "unidade": "mg/mL"},
+      {"forma": "Cápsula 500mg", "concentracao": 500, "unidade": "mg/comprimido"}
+    ],
+    "dose_min_mg_kg_dose": 25,
+    "dose_max_mg_kg_dose": 50,
+    "intervalo_horas_min": 8,
+    "intervalo_horas_max": 12,
+    "dose_max_dia_mg_kg": 90,
+    "dose_max_absoluta_mg_dia": 4000,
+    "observacoes": "Dose alta (90mg/kg/dia) indicada para otite média/pneumonia."
+  },
+  {
+    "id": "amoxicilina_clavulanato",
+    "nome": "Amoxicilina + Clavulanato",
+    "classe": "Antibiótico (Penicilina + Inibidor de betalactamase)",
+    "vias": ["VO", "EV"],
+    "apresentacoes": [
+      {"forma": "Suspensão oral 400mg/5mL (amoxi)", "concentracao": 80, "unidade": "mg/mL"},
+      {"forma": "Injetável 1g+200mg (frasco)", "concentracao": 1000, "unidade": "mg/frasco"}
+    ],
+    "dose_min_mg_kg_dose": 20,
+    "dose_max_mg_kg_dose": 45,
+    "intervalo_horas_min": 8,
+    "intervalo_horas_max": 12,
+    "dose_max_dia_mg_kg": 90,
+    "dose_max_absoluta_mg_dia": 4000,
+    "observacoes": "Dose calculada com base no componente amoxicilina."
+  },
+  {
+    "id": "ceftriaxona",
+    "nome": "Ceftriaxona",
+    "classe": "Antibiótico (Cefalosporina 3ª geração)",
+    "vias": ["EV", "IM"],
+    "apresentacoes": [
+      {"forma": "Frasco-ampola 500mg (pó p/ diluição)", "concentracao": 500, "unidade": "mg/frasco"},
+      {"forma": "Frasco-ampola 1g (pó p/ diluição)", "concentracao": 1000, "unidade": "mg/frasco"}
+    ],
+    "dose_min_mg_kg_dose": 50,
+    "dose_max_mg_kg_dose": 100,
+    "intervalo_horas_min": 12,
+    "intervalo_horas_max": 24,
+    "dose_max_dia_mg_kg": 100,
+    "dose_max_absoluta_mg_dia": 4000,
+    "observacoes": "Não administrar com soluções contendo cálcio (risco em neonatos). Reconstituir conforme bula."
+  },
+  {
+    "id": "gentamicina",
+    "nome": "Gentamicina",
+    "classe": "Antibiótico (Aminoglicosídeo)",
+    "vias": ["EV", "IM"],
+    "apresentacoes": [
+      {"forma": "Ampola 40mg/mL (1mL)", "concentracao": 40, "unidade": "mg/mL", "volume_frasco_mL": 1},
+      {"forma": "Ampola 10mg/mL (2mL)", "concentracao": 10, "unidade": "mg/mL", "volume_frasco_mL": 2}
+    ],
+    "dose_min_mg_kg_dose": 5,
+    "dose_max_mg_kg_dose": 7.5,
+    "intervalo_horas_min": 24,
+    "intervalo_horas_max": 24,
+    "dose_max_dia_mg_kg": 7.5,
+    "dose_max_absoluta_mg_dia": 400,
+    "observacoes": "Nefrotóxico e ototóxico. Monitorar função renal; evitar associação com outros nefrotóxicos."
+  },
+  {
+    "id": "vancomicina",
+    "nome": "Vancomicina",
+    "classe": "Antibiótico (Glicopeptídeo)",
+    "vias": ["EV"],
+    "apresentacoes": [
+      {"forma": "Frasco-ampola 500mg (pó p/ diluição)", "concentracao": 500, "unidade": "mg/frasco"},
+      {"forma": "Frasco-ampola 1g (pó p/ diluição)", "concentracao": 1000, "unidade": "mg/frasco"}
+    ],
+    "dose_min_mg_kg_dose": 10,
+    "dose_max_mg_kg_dose": 15,
+    "intervalo_horas_min": 6,
+    "intervalo_horas_max": 8,
+    "dose_max_dia_mg_kg": 60,
+    "dose_max_absoluta_mg_dia": 4000,
+    "observacoes": "Infundir em no mínimo 60 minutos (risco de síndrome do pescoço vermelho). Monitorar função renal."
+  },
+  {
+    "id": "azitromicina",
+    "nome": "Azitromicina",
+    "classe": "Antibiótico (Macrolídeo)",
+    "vias": ["VO", "EV"],
+    "apresentacoes": [
+      {"forma": "Suspensão oral 40mg/mL", "concentracao": 40, "unidade": "mg/mL"},
+      {"forma": "Frasco-ampola 500mg", "concentracao": 500, "unidade": "mg/frasco"}
+    ],
+    "dose_min_mg_kg_dose": 10,
+    "dose_max_mg_kg_dose": 10,
+    "intervalo_horas_min": 24,
+    "intervalo_horas_max": 24,
+    "dose_max_dia_mg_kg": 10,
+    "dose_max_absoluta_mg_dia": 500,
+    "observacoes": "Pode prolongar intervalo QT; cautela com outros fármacos QT-prolongadores."
+  },
+  {
+    "id": "claritromicina",
+    "nome": "Claritromicina",
+    "classe": "Antibiótico (Macrolídeo)",
+    "vias": ["VO"],
+    "apresentacoes": [
+      {"forma": "Suspensão oral 25mg/mL", "concentracao": 25, "unidade": "mg/mL"}
+    ],
+    "dose_min_mg_kg_dose": 7.5,
+    "dose_max_mg_kg_dose": 7.5,
+    "intervalo_horas_min": 12,
+    "intervalo_horas_max": 12,
+    "dose_max_dia_mg_kg": 15,
+    "dose_max_absoluta_mg_dia": 1000,
+    "observacoes": "Inibidor do CYP3A4; risco de interações relevante."
+  },
+  {
+    "id": "metronidazol",
+    "nome": "Metronidazol",
+    "classe": "Antibiótico / Antiparasitário",
+    "vias": ["VO", "EV"],
+    "apresentacoes": [
+      {"forma": "Suspensão oral 40mg/mL", "concentracao": 40, "unidade": "mg/mL"},
+      {"forma": "Solução injetável 5mg/mL (bolsa 100mL)", "concentracao": 5, "unidade": "mg/mL", "volume_frasco_mL": 100}
+    ],
+    "dose_min_mg_kg_dose": 7.5,
+    "dose_max_mg_kg_dose": 10,
+    "intervalo_horas_min": 6,
+    "intervalo_horas_max": 8,
+    "dose_max_dia_mg_kg": 40,
+    "dose_max_absoluta_mg_dia": 4000,
+    "observacoes": "Evitar álcool. Efeito dissulfiram-like."
+  },
+  {
+    "id": "prednisolona",
+    "nome": "Prednisolona",
+    "classe": "Corticosteroide",
+    "vias": ["VO"],
+    "apresentacoes": [
+      {"forma": "Solução oral 3mg/mL", "concentracao": 3, "unidade": "mg/mL"},
+      {"forma": "Comprimido 20mg", "concentracao": 20, "unidade": "mg/comprimido"}
+    ],
+    "dose_min_mg_kg_dose": 1,
+    "dose_max_mg_kg_dose": 2,
+    "intervalo_horas_min": 12,
+    "intervalo_horas_max": 24,
+    "dose_max_dia_mg_kg": 2,
+    "dose_max_absoluta_mg_dia": 60,
+    "observacoes": "Risco aumentado de sangramento GI com AINEs."
+  },
+  {
+    "id": "dexametasona",
+    "nome": "Dexametasona",
+    "classe": "Corticosteroide",
+    "vias": ["VO", "EV", "IM"],
+    "apresentacoes": [
+      {"forma": "Injetável 4mg/mL (ampola 2,5mL)", "concentracao": 4, "unidade": "mg/mL", "volume_frasco_mL": 2.5},
+      {"forma": "Solução oral 0,1mg/mL", "concentracao": 0.1, "unidade": "mg/mL"}
+    ],
+    "dose_min_mg_kg_dose": 0.15,
+    "dose_max_mg_kg_dose": 0.6,
+    "intervalo_horas_min": 6,
+    "intervalo_horas_max": 12,
+    "dose_max_dia_mg_kg": 0.6,
+    "dose_max_absoluta_mg_dia": 16,
+    "observacoes": "Uso comum em laringite/crupe (dose única 0,15-0,6 mg/kg)."
+  },
+  {
+    "id": "hidrocortisona",
+    "nome": "Hidrocortisona",
+    "classe": "Corticosteroide",
+    "vias": ["EV", "IM"],
+    "apresentacoes": [
+      {"forma": "Frasco-ampola 100mg (pó p/ diluição)", "concentracao": 100, "unidade": "mg/frasco"},
+      {"forma": "Frasco-ampola 500mg (pó p/ diluição)", "concentracao": 500, "unidade": "mg/frasco"}
+    ],
+    "dose_min_mg_kg_dose": 4,
+    "dose_max_mg_kg_dose": 8,
+    "intervalo_horas_min": 6,
+    "intervalo_horas_max": 6,
+    "dose_max_dia_mg_kg": 32,
+    "dose_max_absoluta_mg_dia": 2000,
+    "observacoes": "Usada em crise asmática e insuficiência adrenal."
+  },
+  {
+    "id": "salbutamol",
+    "nome": "Salbutamol (Albuterol)",
+    "classe": "Broncodilatador (beta-2 agonista)",
+    "vias": ["Inalatória", "VO"],
+    "apresentacoes": [
+      {"forma": "Solução para nebulização 5mg/mL", "concentracao": 5, "unidade": "mg/mL"},
+      {"forma": "Xarope 2mg/5mL", "concentracao": 0.4, "unidade": "mg/mL"}
+    ],
+    "dose_min_mg_kg_dose": 0.1,
+    "dose_max_mg_kg_dose": 0.15,
+    "intervalo_horas_min": 4,
+    "intervalo_horas_max": 6,
+    "dose_max_dia_mg_kg": 0.6,
+    "dose_max_absoluta_mg_dia": 20,
+    "observacoes": "Dose de nebulização mínima 2,5mg e máxima 5mg por dose, independente do peso em muitos protocolos."
+  },
+  {
+    "id": "fenitoina",
+    "nome": "Fenitoína",
+    "classe": "Anticonvulsivante",
+    "vias": ["EV", "VO"],
+    "apresentacoes": [
+      {"forma": "Injetável 50mg/mL (ampola 5mL)", "concentracao": 50, "unidade": "mg/mL", "volume_frasco_mL": 5},
+      {"forma": "Suspensão oral 25mg/mL", "concentracao": 25, "unidade": "mg/mL"}
+    ],
+    "dose_min_mg_kg_dose": 15,
+    "dose_max_mg_kg_dose": 20,
+    "intervalo_horas_min": 24,
+    "intervalo_horas_max": 24,
+    "dose_max_dia_mg_kg": 20,
+    "dose_max_absoluta_mg_dia": 1500,
+    "observacoes": "Dose de ataque (status epilepticus). Infundir diluído em SF 0,9% (precipita em glicose), máx. 1-3mg/kg/min ou 50mg/min."
+  },
+  {
+    "id": "acido_valproico",
+    "nome": "Ácido Valproico (Valproato)",
+    "classe": "Anticonvulsivante",
+    "vias": ["VO", "EV"],
+    "apresentacoes": [
+      {"forma": "Xarope 50mg/mL", "concentracao": 50, "unidade": "mg/mL"},
+      {"forma": "Injetável 100mg/mL", "concentracao": 100, "unidade": "mg/mL"}
+    ],
+    "dose_min_mg_kg_dose": 10,
+    "dose_max_mg_kg_dose": 15,
+    "intervalo_horas_min": 8,
+    "intervalo_horas_max": 12,
+    "dose_max_dia_mg_kg": 60,
+    "dose_max_absoluta_mg_dia": 3000,
+    "observacoes": "Hepatotoxicidade; monitorar função hepática. Contraindicado em suspeita de doença mitocondrial."
+  },
+  {
+    "id": "fenobarbital",
+    "nome": "Fenobarbital",
+    "classe": "Anticonvulsivante",
+    "vias": ["EV", "VO", "IM"],
+    "apresentacoes": [
+      {"forma": "Injetável 100mg/mL (ampola 1mL)", "concentracao": 100, "unidade": "mg/mL", "volume_frasco_mL": 1},
+      {"forma": "Solução oral 40mg/mL", "concentracao": 40, "unidade": "mg/mL"}
+    ],
+    "dose_min_mg_kg_dose": 15,
+    "dose_max_mg_kg_dose": 20,
+    "intervalo_horas_min": 24,
+    "intervalo_horas_max": 24,
+    "dose_max_dia_mg_kg": 20,
+    "dose_max_absoluta_mg_dia": 1000,
+    "observacoes": "Dose de ataque em crise convulsiva neonatal/infantil. Risco de depressão respiratória, potencializado por outros depressores de SNC."
+  },
+  {
+    "id": "midazolam",
+    "nome": "Midazolam",
+    "classe": "Benzodiazepínico / Sedativo",
+    "vias": ["EV", "IM", "Nasal", "VO"],
+    "apresentacoes": [
+      {"forma": "Injetável 5mg/mL (ampola 3mL)", "concentracao": 5, "unidade": "mg/mL", "volume_frasco_mL": 3},
+      {"forma": "Injetável 1mg/mL (ampola 5mL)", "concentracao": 1, "unidade": "mg/mL", "volume_frasco_mL": 5}
+    ],
+    "dose_min_mg_kg_dose": 0.1,
+    "dose_max_mg_kg_dose": 0.3,
+    "intervalo_horas_min": 4,
+    "intervalo_horas_max": 6,
+    "dose_max_dia_mg_kg": 0.6,
+    "dose_max_absoluta_mg_dia": 10,
+    "observacoes": "Depressor de SNC; risco de depressão respiratória associado a opioides e outros sedativos."
+  },
+  {
+    "id": "morfina",
+    "nome": "Morfina",
+    "classe": "Opioide",
+    "vias": ["EV", "VO", "SC"],
+    "apresentacoes": [
+      {"forma": "Injetável 10mg/mL (ampola 1mL)", "concentracao": 10, "unidade": "mg/mL", "volume_frasco_mL": 1},
+      {"forma": "Solução oral 2mg/mL", "concentracao": 2, "unidade": "mg/mL"}
+    ],
+    "dose_min_mg_kg_dose": 0.05,
+    "dose_max_mg_kg_dose": 0.1,
+    "intervalo_horas_min": 4,
+    "intervalo_horas_max": 4,
+    "dose_max_dia_mg_kg": 0.6,
+    "dose_max_absoluta_mg_dia": 15,
+    "observacoes": "Monitorar sedação e depressão respiratória, especialmente associado a outros depressores de SNC."
+  },
+  {
+    "id": "tramadol",
+    "nome": "Tramadol",
+    "classe": "Opioide (analgésico de ação central)",
+    "vias": ["VO", "EV"],
+    "apresentacoes": [
+      {"forma": "Solução oral 100mg/mL (gotas)", "concentracao": 100, "unidade": "mg/mL"},
+      {"forma": "Injetável 50mg/mL (ampola 2mL)", "concentracao": 50, "unidade": "mg/mL", "volume_frasco_mL": 2}
+    ],
+    "dose_min_mg_kg_dose": 1,
+    "dose_max_mg_kg_dose": 2,
+    "intervalo_horas_min": 6,
+    "intervalo_horas_max": 8,
+    "dose_max_dia_mg_kg": 8,
+    "dose_max_absoluta_mg_dia": 400,
+    "observacoes": "Reduz limiar convulsivo; cautela com outros fármacos que reduzem o limiar. Risco de síndrome serotoninérgica."
+  },
+  {
+    "id": "ondansetrona",
+    "nome": "Ondansetrona",
+    "classe": "Antiemético (antagonista 5-HT3)",
+    "vias": ["VO", "EV"],
+    "apresentacoes": [
+      {"forma": "Injetável 2mg/mL (ampola 4mL)", "concentracao": 2, "unidade": "mg/mL", "volume_frasco_mL": 4},
+      {"forma": "Solução oral 0,8mg/mL", "concentracao": 0.8, "unidade": "mg/mL"}
+    ],
+    "dose_min_mg_kg_dose": 0.1,
+    "dose_max_mg_kg_dose": 0.15,
+    "intervalo_horas_min": 8,
+    "intervalo_horas_max": 12,
+    "dose_max_dia_mg_kg": 0.45,
+    "dose_max_absoluta_mg_dia": 16,
+    "observacoes": "Prolonga intervalo QT; cautela com outros fármacos QT-prolongadores."
+  },
+  {
+    "id": "omeprazol",
+    "nome": "Omeprazol",
+    "classe": "Inibidor de bomba de prótons",
+    "vias": ["VO", "EV"],
+    "apresentacoes": [
+      {"forma": "Cápsula 20mg", "concentracao": 20, "unidade": "mg/comprimido"},
+      {"forma": "Frasco-ampola 40mg (pó p/ diluição)", "concentracao": 40, "unidade": "mg/frasco"}
+    ],
+    "dose_min_mg_kg_dose": 0.7,
+    "dose_max_mg_kg_dose": 1,
+    "intervalo_horas_min": 24,
+    "intervalo_horas_max": 24,
+    "dose_max_dia_mg_kg": 1,
+    "dose_max_absoluta_mg_dia": 40,
+    "observacoes": "Pode alterar absorção de outros fármacos dependentes de pH gástrico."
+  },
+  {
+    "id": "furosemida",
+    "nome": "Furosemida",
+    "classe": "Diurético de alça",
+    "vias": ["VO", "EV", "IM"],
+    "apresentacoes": [
+      {"forma": "Injetável 10mg/mL (ampola 2mL)", "concentracao": 10, "unidade": "mg/mL", "volume_frasco_mL": 2},
+      {"forma": "Solução oral 10mg/mL", "concentracao": 10, "unidade": "mg/mL"}
+    ],
+    "dose_min_mg_kg_dose": 0.5,
+    "dose_max_mg_kg_dose": 2,
+    "intervalo_horas_min": 6,
+    "intervalo_horas_max": 12,
+    "dose_max_dia_mg_kg": 6,
+    "dose_max_absoluta_mg_dia": 200,
+    "observacoes": "Potencializa ototoxicidade de aminoglicosídeos e risco de hipocalemia."
+  },
+  {
+    "id": "insulina_regular",
+    "nome": "Insulina Regular (Humana)",
+    "classe": "Hormônio / Antidiabético",
+    "vias": ["EV", "SC"],
+    "apresentacoes": [
+      {"forma": "Frasco-ampola 100 UI/mL", "concentracao": 100, "unidade": "UI/mL", "volume_frasco_mL": 10}
+    ],
+    "dose_min_mg_kg_dose": 0.05,
+    "dose_max_mg_kg_dose": 0.1,
+    "intervalo_horas_min": 1,
+    "intervalo_horas_max": 1,
+    "dose_max_dia_mg_kg": 2.4,
+    "dose_max_absoluta_mg_dia": null,
+    "observacoes": "Dose expressa em UI/kg/h (infusão contínua em cetoacidose diabética: 0,05-0,1 UI/kg/h). Unidade tratada como 'mg' apenas para fins de cálculo (na verdade UI)."
+  },
+  {
+    "id": "sulfato_magnesio",
+    "nome": "Sulfato de Magnésio",
+    "classe": "Broncodilatador adjuvante / Anticonvulsivante",
+    "vias": ["EV"],
+    "apresentacoes": [
+      {"forma": "Injetável 100mg/mL (10%)", "concentracao": 100, "unidade": "mg/mL"},
+      {"forma": "Injetável 500mg/mL (50%)", "concentracao": 500, "unidade": "mg/mL"}
+    ],
+    "dose_min_mg_kg_dose": 25,
+    "dose_max_mg_kg_dose": 50,
+    "intervalo_horas_min": 4,
+    "intervalo_horas_max": 6,
+    "dose_max_dia_mg_kg": 200,
+    "dose_max_absoluta_mg_dia": 2000,
+    "observacoes": "Infundir lentamente (risco de hipotensão). Monitorar reflexos e frequência respiratória."
+  }
+]

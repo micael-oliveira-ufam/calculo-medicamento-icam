@@ -1,0 +1,122 @@
+[
+  {
+    "medicamentos": ["gentamicina", "vancomicina"],
+    "gravidade": "grave",
+    "descricao": "Risco aumentado de nefrotoxicidade e ototoxicidade pela associação de dois fármacos nefro/ototóxicos. Monitorar função renal e níveis séricos."
+  },
+  {
+    "medicamentos": ["gentamicina", "furosemida"],
+    "gravidade": "grave",
+    "descricao": "Diuréticos de alça potencializam a ototoxicidade dos aminoglicosídeos."
+  },
+  {
+    "medicamentos": ["vancomicina", "furosemida"],
+    "gravidade": "moderada",
+    "descricao": "Risco aumentado de ototoxicidade e nefrotoxicidade."
+  },
+  {
+    "medicamentos": ["fenitoina", "acido_valproico"],
+    "gravidade": "moderada",
+    "descricao": "Valproato desloca a fenitoína de sua ligação proteica e inibe seu metabolismo, podendo elevar a fração livre/toxicidade. Ajustar dose e monitorar níveis séricos."
+  },
+  {
+    "medicamentos": ["fenobarbital", "acido_valproico"],
+    "gravidade": "moderada",
+    "descricao": "Valproato inibe o metabolismo do fenobarbital, aumentando seus níveis séricos e risco de sedação excessiva."
+  },
+  {
+    "medicamentos": ["fenobarbital", "midazolam"],
+    "gravidade": "grave",
+    "descricao": "Associação de depressores do SNC com risco aumentado de depressão respiratória e sedação profunda."
+  },
+  {
+    "medicamentos": ["midazolam", "morfina"],
+    "gravidade": "grave",
+    "descricao": "Risco aumentado de depressão respiratória e sedação profunda pela associação de benzodiazepínico e opioide."
+  },
+  {
+    "medicamentos": ["morfina", "tramadol"],
+    "gravidade": "grave",
+    "descricao": "Associação de opioides aumenta risco de depressão respiratória e sedação; geralmente não recomendada."
+  },
+  {
+    "medicamentos": ["fenobarbital", "morfina"],
+    "gravidade": "grave",
+    "descricao": "Risco aumentado de depressão respiratória e sedação profunda."
+  },
+  {
+    "medicamentos": ["tramadol", "ondansetrona"],
+    "gravidade": "moderada",
+    "descricao": "Ondansetrona pode reduzir o efeito analgésico do tramadol e ambos aumentam risco de síndrome serotoninérgica e prolongamento do QT."
+  },
+  {
+    "medicamentos": ["azitromicina", "ondansetrona"],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT. Considerar ECG se uso prolongado ou fatores de risco associados."
+  },
+  {
+    "medicamentos": ["claritromicina", "ondansetrona"],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT."
+  },
+  {
+    "medicamentos": ["azitromicina", "claritromicina"],
+    "gravidade": "moderada",
+    "descricao": "Uso concomitante de dois macrolídeos não é recomendado; risco somado de prolongamento de QT e efeitos adversos gastrointestinais."
+  },
+  {
+    "medicamentos": ["ibuprofeno", "prednisolona"],
+    "gravidade": "moderada",
+    "descricao": "Associação de AINE com corticosteroide aumenta o risco de sangramento e ulceração gastrointestinal."
+  },
+  {
+    "medicamentos": ["ibuprofeno", "dexametasona"],
+    "gravidade": "moderada",
+    "descricao": "Associação de AINE com corticosteroide aumenta o risco de sangramento e ulceração gastrointestinal."
+  },
+  {
+    "medicamentos": ["ibuprofeno", "hidrocortisona"],
+    "gravidade": "moderada",
+    "descricao": "Associação de AINE com corticosteroide aumenta o risco de sangramento e ulceração gastrointestinal."
+  },
+  {
+    "medicamentos": ["ibuprofeno", "gentamicina"],
+    "gravidade": "moderada",
+    "descricao": "AINEs podem reduzir a perfusão renal e potencializar a nefrotoxicidade dos aminoglicosídeos."
+  },
+  {
+    "medicamentos": ["ceftriaxona", "sulfato_magnesio"],
+    "gravidade": "leve",
+    "descricao": "Não misturar na mesma via/solução; ceftriaxona não deve ser administrada com soluções contendo cálcio ou outros sais divalentes na mesma linha EV, especialmente em neonatos."
+  },
+  {
+    "medicamentos": ["claritromicina", "acido_valproico"],
+    "gravidade": "moderada",
+    "descricao": "Macrolídeos são inibidores enzimáticos e podem alterar o metabolismo de outros fármacos; monitorar níveis e efeitos adversos."
+  },
+  {
+    "medicamentos": ["omeprazol", "fenitoina"],
+    "gravidade": "leve",
+    "descricao": "Omeprazol pode inibir o metabolismo da fenitoína (CYP2C19), aumentando seus níveis séricos."
+  },
+  {
+    "medicamentos": ["furosemida", "dexametasona"],
+    "gravidade": "leve",
+    "descricao": "Corticosteroides podem potencializar a perda de potássio induzida pelo diurético de alça; monitorar eletrólitos."
+  },
+  {
+    "medicamentos": ["furosemida", "hidrocortisona"],
+    "gravidade": "leve",
+    "descricao": "Corticosteroides podem potencializar a perda de potássio induzida pelo diurético de alça; monitorar eletrólitos."
+  },
+  {
+    "medicamentos": ["salbutamol", "furosemida"],
+    "gravidade": "leve",
+    "descricao": "Risco somado de hipocalemia; monitorar eletrólitos em uso concomitante frequente."
+  },
+  {
+    "medicamentos": ["tramadol", "fenobarbital"],
+    "gravidade": "moderada",
+    "descricao": "Fenobarbital pode reduzir o efeito analgésico do tramadol e a combinação aumenta sedação e depressão do SNC."
+  }
+]

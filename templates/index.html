@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ICAM — Avaliação de Prescrições e Cálculo de Medicamentos</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-content">
+      <h1>ICAM · Farmácia Clínica Pediátrica</h1>
+      <p class="subtitle">Avaliação de interações medicamentosas e cálculo de doses</p>
+    </div>
+  </header>
+
+  <div class="disclaimer">
+    ⚠️ Ferramenta de apoio à decisão. Os valores de referência devem ser sempre confrontados com o protocolo
+    institucional, a bula vigente e o julgamento clínico do prescritor/farmacêutico responsável.
+  </div>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab-btn active" data-tab="prescricao">Avaliar Prescrição</button>
+    <button class="tab-btn" data-tab="dose">Cálculo de Dose</button>
+    <button class="tab-btn" data-tab="frascos">Frascos / Ampolas</button>
+    <button class="tab-btn" data-tab="unitaria">Dose Unitária</button>
+    <button class="tab-btn" data-tab="bulario">Bulário</button>
+  </nav>
+
+  <main class="container">
+
+    <!-- ABA: Avaliar Prescrição -->
+    <section id="tab-prescricao" class="tab-panel active">
+      <h2>Avaliação de Prescrição</h2>
+      <div class="card">
+        <label for="peso-paciente">Peso do paciente (kg)</label>
+        <input type="number" id="peso-paciente" step="0.01" min="0.1" placeholder="Ex.: 12.5">
+      </div>
+
+      <div id="lista-itens"></div>
+
+      <button id="btn-add-item" class="btn btn-secondary" type="button">+ Adicionar medicamento</button>
+      <button id="btn-avaliar" class="btn btn-primary" type="button">Avaliar prescrição</button>
+
+      <div id="resultado-prescricao" class="resultado"></div>
+    </section>
+
+    <!-- ABA: Cálculo de Dose -->
+    <section id="tab-dose" class="tab-panel">
+      <h2>Calculadora de Dose</h2>
+      <div class="card form-grid">
+        <div>
+          <label for="dose-peso">Peso (kg)</label>
+          <input type="number" id="dose-peso" step="0.01" min="0.1">
+        </div>
+        <div>
+          <label for="dose-mgkg">Dose prescrita (mg/kg por administração)</label>
+          <input type="number" id="dose-mgkg" step="0.01" min="0">
+        </div>
+        <div>
+          <label for="dose-frequencia">Administrações por dia</label>
+          <input type="number" id="dose-frequencia" step="1" min="1" value="1">
+        </div>
+      </div>
+      <button id="btn-calcular-dose" class="btn btn-primary" type="button">Calcular</button>
+      <div id="resultado-dose" class="resultado"></div>
+    </section>
+
+    <!-- ABA: Frascos / Ampolas -->
+    <section id="tab-frascos" class="tab-panel">
+      <h2>Cálculo de Frascos / Ampolas Necessários</h2>
+      <div class="card form-grid">
+        <div>
+          <label for="frascos-dose-total">Quantidade total necessária (mg ou mL)</label>
+          <input type="number" id="frascos-dose-total" step="0.01" min="0">
+        </div>
+        <div>
+          <label for="frascos-por-frasco">Quantidade por frasco/ampola (mesma unidade)</label>
+          <input type="number" id="frascos-por-frasco" step="0.01" min="0.0001">
+        </div>
+        <div>
+          <label for="frascos-unidade">Unidade</label>
+          <select id="frascos-unidade">
+            <option value="mg">mg</option>
+            <option value="mL">mL</option>
+            <option value="UI">UI</option>
+          </select>
+        </div>
+      </div>
+      <button id="btn-calcular-frascos" class="btn btn-primary" type="button">Calcular</button>
+      <div id="resultado-frascos" class="resultado"></div>
+    </section>
+
+    <!-- ABA: Dose Unitária -->
+    <section id="tab-unitaria" class="tab-panel">
+      <h2>Cálculo de Dose Unitária (fracionamento)</h2>
+      <p class="help-text">Calcula o volume (mL), número de comprimidos, ou outra unidade da apresentação
+        necessária para atingir a dose prescrita — útil para fracionar ampolas, frascos e suspensões.</p>
+      <div class="card form-grid">
+        <div>
+          <label for="unit-dose-mg">Dose prescrita (mg)</label>
+          <input type="number" id="unit-dose-mg" step="0.01" min="0">
+        </div>
+        <div>
+          <label for="unit-concentracao">Concentração da apresentação</label>
+          <input type="number" id="unit-concentracao" step="0.0001" min="0.0001">
+        </div>
+        <div>
+          <label for="unit-unidade">Unidade da concentração</label>
+          <select id="unit-unidade">
+            <option value="mg/mL">mg/mL</option>
+            <option value="mg/comprimido">mg/comprimido</option>
+            <option value="mg/frasco">mg/frasco</option>
+            <option value="UI/mL">UI/mL</option>
+          </select>
+        </div>
+      </div>
+      <button id="btn-calcular-unitaria" class="btn btn-primary" type="button">Calcular</button>
+      <div id="resultado-unitaria" class="resultado"></div>
+    </section>
+
+    <!-- ABA: Bulário -->
+    <section id="tab-bulario" class="tab-panel">
+      <h2>Base de Medicamentos Cadastrados</h2>
+      <div class="card">
+        <input type="text" id="filtro-bulario" placeholder="Filtrar por nome ou classe...">
+      </div>
+      <div id="lista-bulario" class="bulario-grid"></div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <p>Instituto da Criança e do Adolescente do Amazonas — Ferramenta interna de apoio farmacoterapêutico.</p>
+  </footer>
+
+  <!-- Template para um item de prescrição -->
+  <template id="template-item-prescricao">
+    <div class="item-prescricao card">
+      <button class="btn-remove-item" type="button" title="Remover">&times;</button>
+      <div class="form-grid">
+        <div>
+          <label>Medicamento</label>
+          <select class="select-medicamento"></select>
+        </div>
+        <div>
+          <label>Apresentação</label>
+          <select class="select-apresentacao"></select>
+        </div>
+        <div>
+          <label>Dose prescrita por administração (mg)</label>
+          <input type="number" class="input-dose-mg" step="0.01" min="0">
+        </div>
+        <div>
+          <label>Administrações por dia</label>
+          <input type="number" class="input-doses-dia" step="1" min="1" value="1">
+        </div>
+      </div>
+      <p class="ref-info"></p>
+    </div>
+  </template>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
