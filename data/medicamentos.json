@@ -20,7 +20,14 @@
     "intervalo_horas_max": 16,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Protocolo de intoxicação por paracetamol: 150 mg/kg (ataque), depois infusões escalonadas. Diluir em SG5%."
+    "observacoes": "Protocolo de intoxicação por paracetamol: 150 mg/kg (ataque), depois infusões escalonadas. Diluir em SG5%.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "acido_ascorbico_inj",
@@ -44,7 +51,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 500,
-    "observacoes": "Reposição/escorbuto. Dose ampla conforme indicação clínica."
+    "observacoes": "Reposição/escorbuto. Dose ampla conforme indicação clínica.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "acido_tranexamico",
@@ -67,7 +81,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 1000,
-    "observacoes": "Infundir lentamente (risco de hipotensão em bolus rápido)."
+    "observacoes": "Infundir lentamente (risco de hipotensão em bolus rápido).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "aciclovir",
@@ -90,7 +111,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 1500,
-    "observacoes": "Infundir em no mínimo 1h. Hidratar bem (risco de nefrotoxicidade)."
+    "observacoes": "Infundir em no mínimo 1h. Hidratar bem (risco de nefrotoxicidade).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "albumina_humana",
@@ -113,7 +141,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose expressa em g/kg (0,5-1 g/kg); infundir conforme protocolo, monitorar volemia."
+    "observacoes": "Dose expressa em g/kg (0,5-1 g/kg); infundir conforme protocolo, monitorar volemia.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "amicacina",
@@ -137,7 +172,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": 22.5,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Nefro/ototóxico. Monitorar função renal e níveis séricos."
+    "observacoes": "Nefro/ototóxico. Monitorar função renal e níveis séricos.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "ampicilina",
@@ -166,7 +208,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 400,
     "dose_max_absoluta_mg_dia": 12000,
-    "observacoes": "Dose maior (até 400mg/kg/dia) para meningite."
+    "observacoes": "Dose maior (até 400mg/kg/dia) para meningite.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "atropina",
@@ -191,7 +240,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 1,
-    "observacoes": "Dose mínima 0,1mg por administração (risco de bradicardia paradoxal em doses menores)."
+    "observacoes": "Dose mínima 0,1mg por administração (risco de bradicardia paradoxal em doses menores).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "benzilpenicilina_cristalina",
@@ -215,7 +271,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": 250000,
     "dose_max_absoluta_mg_dia": 24000000,
-    "observacoes": "Dose expressa em UI/kg/dia."
+    "observacoes": "Dose expressa em UI/kg/dia.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "benzilpenicilina_benzatina",
@@ -243,7 +306,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 1200000,
-    "observacoes": "Dose única (profilaxia de febre reumática/sífilis) — não é dose fracionada por dia."
+    "observacoes": "Dose única (profilaxia de febre reumática/sífilis) — não é dose fracionada por dia.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "bromoprida_inj",
@@ -267,7 +337,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 3,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Evitar em < 1 ano; risco de reações extrapiramidais."
+    "observacoes": "Evitar em < 1 ano; risco de reações extrapiramidais.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "bupivacaina",
@@ -292,7 +369,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso restrito à anestesia/analgesia locorregional; dose depende da técnica."
+    "observacoes": "Uso restrito à anestesia/analgesia locorregional; dose depende da técnica.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "bupivacaina_pesada",
@@ -315,7 +399,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso exclusivo em raquianestesia por anestesiologista; sem faixa mg/kg padronizada."
+    "observacoes": "Uso exclusivo em raquianestesia por anestesiologista; sem faixa mg/kg padronizada.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "cefalotina",
@@ -339,7 +430,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 12000,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "cefazolina",
@@ -363,7 +461,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 100,
     "dose_max_absoluta_mg_dia": 6000,
-    "observacoes": "Profilaxia cirúrgica: dose única 25-30mg/kg."
+    "observacoes": "Profilaxia cirúrgica: dose única 25-30mg/kg.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "ceftriaxona",
@@ -387,7 +492,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": 100,
     "dose_max_absoluta_mg_dia": 4000,
-    "observacoes": "Não administrar com soluções contendo cálcio (risco em neonatos)."
+    "observacoes": "Não administrar com soluções contendo cálcio (risco em neonatos).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "ciprofloxacino_inj",
@@ -410,7 +522,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 800,
-    "observacoes": "Uso restrito; risco de artropatia (avaliar risco-benefício em pediatria)."
+    "observacoes": "Uso restrito; risco de artropatia (avaliar risco-benefício em pediatria).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "claritromicina_inj",
@@ -433,7 +552,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 1000,
-    "observacoes": "Pode prolongar intervalo QT."
+    "observacoes": "Pode prolongar intervalo QT.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "clindamicina",
@@ -457,7 +583,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 4800,
-    "observacoes": "Risco de colite associada a Clostridioides difficile."
+    "observacoes": "Risco de colite associada a Clostridioides difficile.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "dexametasona_inj",
@@ -481,7 +614,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 16,
-    "observacoes": "Uso comum em laringite/crupe (dose única 0,15-0,6 mg/kg)."
+    "observacoes": "Uso comum em laringite/crupe (dose única 0,15-0,6 mg/kg).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "dipirona_inj",
@@ -505,7 +645,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": 100,
     "dose_max_absoluta_mg_dia": 4000,
-    "observacoes": "Evitar em < 3 meses. Risco raro de agranulocitose."
+    "observacoes": "Evitar em < 3 meses. Risco raro de agranulocitose.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "dobutamina",
@@ -528,7 +675,14 @@
     "intervalo_horas_max": 1,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose em mcg/kg/min (2-20). Aqui os campos mg/kg/dose representam mcg/kg/min para fins de cálculo de infusão contínua."
+    "observacoes": "Dose em mcg/kg/min (2-20). Aqui os campos mg/kg/dose representam mcg/kg/min para fins de cálculo de infusão contínua.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "dopamina",
@@ -551,7 +705,14 @@
     "intervalo_horas_max": 1,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose em mcg/kg/min (2-20, titulável). Usar via exclusiva e bomba de infusão."
+    "observacoes": "Dose em mcg/kg/min (2-20, titulável). Usar via exclusiva e bomba de infusão.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "enoxaparina",
@@ -579,7 +740,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose terapêutica 1mg/kg 12/12h; profilática 0,5mg/kg/dia. Ajustar por função renal."
+    "observacoes": "Dose terapêutica 1mg/kg 12/12h; profilática 0,5mg/kg/dia. Ajustar por função renal.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "epinefrina",
@@ -605,7 +773,14 @@
     "intervalo_horas_max": 5,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 1,
-    "observacoes": "PCR: 0,01 mg/kg EV/IO (1:10.000) a cada 3-5 min. Anafilaxia IM: 0,01mg/kg (máx. 0,5mg)."
+    "observacoes": "PCR: 0,01 mg/kg EV/IO (1:10.000) a cada 3-5 min. Anafilaxia IM: 0,01mg/kg (máx. 0,5mg).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "escopolamina",
@@ -629,7 +804,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 40,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "fitomenadiona",
@@ -653,7 +835,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 10,
-    "observacoes": "Neonatos: 1mg IM dose única (profilaxia doença hemorrágica). Reversão de varfarina: 0,3mg/kg."
+    "observacoes": "Neonatos: 1mg IM dose única (profilaxia doença hemorrágica). Reversão de varfarina: 0,3mg/kg.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "fluconazol_inj",
@@ -676,7 +865,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 800,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "folinato_calcio",
@@ -701,7 +897,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose de resgate depende do protocolo de quimioterapia (metotrexato)."
+    "observacoes": "Dose de resgate depende do protocolo de quimioterapia (metotrexato).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "furosemida",
@@ -725,7 +928,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": 6,
     "dose_max_absoluta_mg_dia": 200,
-    "observacoes": "Potencializa ototoxicidade de aminoglicosídeos e risco de hipocalemia."
+    "observacoes": "Potencializa ototoxicidade de aminoglicosídeos e risco de hipocalemia.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "gentamicina",
@@ -754,7 +964,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": 7.5,
     "dose_max_absoluta_mg_dia": 400,
-    "observacoes": "Nefro/ototóxico. Monitorar função renal; evitar com outros nefrotóxicos."
+    "observacoes": "Nefro/ototóxico. Monitorar função renal; evitar com outros nefrotóxicos.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "heparina_sodica",
@@ -778,7 +995,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose de ataque 75-100 UI/kg (bolus), manutenção por infusão contínua titulada por TTPa."
+    "observacoes": "Dose de ataque 75-100 UI/kg (bolus), manutenção por infusão contínua titulada por TTPa.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "hidralazina",
@@ -802,7 +1026,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 20,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "hidrocortisona",
@@ -831,7 +1062,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": 32,
     "dose_max_absoluta_mg_dia": 2000,
-    "observacoes": "Usada em crise asmática e insuficiência adrenal."
+    "observacoes": "Usada em crise asmática e insuficiência adrenal.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "lidocaina",
@@ -855,7 +1093,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Antiarrítmico (PCR/FV refratária): 1 mg/kg bolus EV. Infiltração: dose máx. local 4,5mg/kg."
+    "observacoes": "Antiarrítmico (PCR/FV refratária): 1 mg/kg bolus EV. Infiltração: dose máx. local 4,5mg/kg.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "meropenem",
@@ -883,7 +1128,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 120,
     "dose_max_absoluta_mg_dia": 6000,
-    "observacoes": "Meningite: até 40mg/kg 8/8h (máx. 2g/dose)."
+    "observacoes": "Meningite: até 40mg/kg 8/8h (máx. 2g/dose).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "metilprednisolona",
@@ -912,7 +1164,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": 30,
     "dose_max_absoluta_mg_dia": 1000,
-    "observacoes": "Pulsoterapia (ex.: crise asmática grave) pode chegar a 30mg/kg/dia (máx. 1g)."
+    "observacoes": "Pulsoterapia (ex.: crise asmática grave) pode chegar a 30mg/kg/dia (máx. 1g).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "metronidazol_inj",
@@ -935,7 +1194,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 40,
     "dose_max_absoluta_mg_dia": 4000,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "metoclopramida_inj",
@@ -959,7 +1225,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 0.5,
     "dose_max_absoluta_mg_dia": 10,
-    "observacoes": "Evitar em crianças pequenas; risco de reações extrapiramidais."
+    "observacoes": "Evitar em crianças pequenas; risco de reações extrapiramidais.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "norepinefrina",
@@ -982,7 +1255,14 @@
     "intervalo_horas_max": 1,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose em mcg/kg/min (0,05-1), titulável, via exclusiva."
+    "observacoes": "Dose em mcg/kg/min (0,05-1), titulável, via exclusiva.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "omeprazol_inj",
@@ -1005,7 +1285,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 40,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "ondansetrona",
@@ -1029,7 +1316,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": 0.45,
     "dose_max_absoluta_mg_dia": 16,
-    "observacoes": "Prolonga intervalo QT; cautela com outros fármacos QT-prolongadores."
+    "observacoes": "Prolonga intervalo QT; cautela com outros fármacos QT-prolongadores.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "oxacilina",
@@ -1053,7 +1347,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": 200,
     "dose_max_absoluta_mg_dia": 12000,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "pantoprazol",
@@ -1076,7 +1377,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 40,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "prometazina",
@@ -1100,7 +1408,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 25,
-    "observacoes": "Evitar em < 2 anos (risco de depressão respiratória grave)."
+    "observacoes": "Evitar em < 2 anos (risco de depressão respiratória grave).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "piperacilina_tazobactam",
@@ -1123,7 +1438,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 16000,
-    "observacoes": "Dose calculada com base no componente piperacilina."
+    "observacoes": "Dose calculada com base no componente piperacilina.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "salbutamol_inj",
@@ -1146,7 +1468,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso restrito a broncoespasmo grave refratário, sob monitorização em UTI."
+    "observacoes": "Uso restrito a broncoespasmo grave refratário, sob monitorização em UTI.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "sulfametoxazol_trimetoprima_inj",
@@ -1169,7 +1498,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose calculada com base no componente trimetoprima (8-10mg/kg/dia)."
+    "observacoes": "Dose calculada com base no componente trimetoprima (8-10mg/kg/dia).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "suxametonio",
@@ -1193,7 +1529,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso exclusivo em intubação de sequência rápida por profissional habilitado."
+    "observacoes": "Uso exclusivo em intubação de sequência rápida por profissional habilitado.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "tenoxicam",
@@ -1222,7 +1565,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 40,
-    "observacoes": "Uso não rotineiro em pediatria; avaliar risco-benefício."
+    "observacoes": "Uso não rotineiro em pediatria; avaliar risco-benefício.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "vancomicina",
@@ -1245,7 +1595,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 60,
     "dose_max_absoluta_mg_dia": 4000,
-    "observacoes": "Infundir em no mínimo 60 minutos (síndrome do pescoço vermelho). Monitorar função renal."
+    "observacoes": "Infundir em no mínimo 60 minutos (síndrome do pescoço vermelho). Monitorar função renal.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "vitaminas_complexo_b_inj",
@@ -1269,7 +1626,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Reposição; sem faixa mg/kg padronizada — seguir protocolo institucional."
+    "observacoes": "Reposição; sem faixa mg/kg padronizada — seguir protocolo institucional.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "aas",
@@ -1292,7 +1656,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 100,
-    "observacoes": "Antiagregante (ex.: Kawasaki fase crônica). Evitar em quadros virais (risco de Síndrome de Reye)."
+    "observacoes": "Antiagregante (ex.: Kawasaki fase crônica). Evitar em quadros virais (risco de Síndrome de Reye).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "acido_folico",
@@ -1315,7 +1686,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 5,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "albendazol_comp",
@@ -1338,7 +1716,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 400,
-    "observacoes": "Dose fixa de 400mg (dose única) em > 2 anos, independente do peso."
+    "observacoes": "Dose fixa de 400mg (dose única) em > 2 anos, independente do peso.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "alopurinol",
@@ -1361,7 +1746,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 300,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "anlodipino",
@@ -1384,7 +1776,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 10,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "azitromicina_comp",
@@ -1407,7 +1806,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 500,
-    "observacoes": "Pode prolongar intervalo QT."
+    "observacoes": "Pode prolongar intervalo QT.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "amoxicilina_comp",
@@ -1430,7 +1836,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": 90,
     "dose_max_absoluta_mg_dia": 4000,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "baclofeno",
@@ -1453,7 +1866,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 60,
-    "observacoes": "Iniciar com dose baixa e titular; retirada gradual (risco de síndrome de abstinência)."
+    "observacoes": "Iniciar com dose baixa e titular; retirada gradual (risco de síndrome de abstinência).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "captopril",
@@ -1476,7 +1896,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 450,
-    "observacoes": "Iniciar com dose baixa (0,15-0,3mg/kg/dose) e titular. Monitorar potássio e função renal."
+    "observacoes": "Iniciar com dose baixa (0,15-0,3mg/kg/dose) e titular. Monitorar potássio e função renal.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "carbonato_calcio",
@@ -1499,7 +1926,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 2500,
-    "observacoes": "Dose expressa em mg/kg/dia de cálcio elementar."
+    "observacoes": "Dose expressa em mg/kg/dia de cálcio elementar.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "carvedilol",
@@ -1522,7 +1956,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 25,
-    "observacoes": "Insuficiência cardíaca pediátrica; titular lentamente."
+    "observacoes": "Insuficiência cardíaca pediátrica; titular lentamente.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "cefalexina_comp",
@@ -1545,7 +1986,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": 100,
     "dose_max_absoluta_mg_dia": 4000,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "ciprofloxacino_comp",
@@ -1568,7 +2016,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 1500,
-    "observacoes": "Uso restrito; risco de artropatia (avaliar risco-benefício em pediatria)."
+    "observacoes": "Uso restrito; risco de artropatia (avaliar risco-benefício em pediatria).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "dipirona_comp",
@@ -1591,7 +2046,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": 100,
     "dose_max_absoluta_mg_dia": 4000,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "espironolactona",
@@ -1614,7 +2076,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 100,
-    "observacoes": "Monitorar potássio sérico, especialmente com IECA."
+    "observacoes": "Monitorar potássio sérico, especialmente com IECA.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "ibuprofeno_comp",
@@ -1637,7 +2106,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 40,
     "dose_max_absoluta_mg_dia": 2400,
-    "observacoes": "Evitar em < 6 meses, desidratação, doença renal ou varicela."
+    "observacoes": "Evitar em < 6 meses, desidratação, doença renal ou varicela.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "fluconazol_comp",
@@ -1660,7 +2136,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 800,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "hidroclorotiazida",
@@ -1683,7 +2166,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 100,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "hidralazina_comp",
@@ -1706,7 +2196,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 200,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "ivermectina",
@@ -1729,7 +2226,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose única. Evitar em crianças com < 15 kg."
+    "observacoes": "Dose única. Evitar em crianças com < 15 kg.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "levotiroxina",
@@ -1757,7 +2261,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 0.15,
-    "observacoes": "Dose em mg/kg/dia equivalente (0,003-0,006 mg/kg/dia); varia muito com idade — RN pode precisar de dose maior por kg."
+    "observacoes": "Dose em mg/kg/dia equivalente (0,003-0,006 mg/kg/dia); varia muito com idade — RN pode precisar de dose maior por kg.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "losartana",
@@ -1780,7 +2291,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 100,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "metronidazol_comp",
@@ -1803,7 +2321,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 40,
     "dose_max_absoluta_mg_dia": 4000,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "omeprazol_comp",
@@ -1826,7 +2351,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 40,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "oseltamivir",
@@ -1859,7 +2391,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 150,
-    "observacoes": "Dosagem por faixa de peso conforme bula (não estritamente linear em mg/kg). Faixa ≥40kg: 75mg 12/12h. Tratamento por 5 dias."
+    "observacoes": "Dosagem por faixa de peso conforme bula (não estritamente linear em mg/kg). Faixa ≥40kg: 75mg 12/12h. Tratamento por 5 dias.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "prednisona",
@@ -1887,7 +2426,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": 2,
     "dose_max_absoluta_mg_dia": 60,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "propranolol",
@@ -1910,7 +2456,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 160,
-    "observacoes": "Também usado em hemangiomas infantis (protocolo específico, iniciar internado)."
+    "observacoes": "Também usado em hemangiomas infantis (protocolo específico, iniciar internado).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "sildenafila",
@@ -1933,7 +2486,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 20,
-    "observacoes": "Hipertensão pulmonar; iniciar com dose baixa."
+    "observacoes": "Hipertensão pulmonar; iniciar com dose baixa.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "albendazol_susp",
@@ -1956,7 +2516,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 400,
-    "observacoes": "Dose fixa de 400mg (dose única) em > 2 anos."
+    "observacoes": "Dose fixa de 400mg (dose única) em > 2 anos.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "amoxicilina_clavulanato_susp",
@@ -1979,7 +2546,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": 90,
     "dose_max_absoluta_mg_dia": 4000,
-    "observacoes": "Dose calculada com base no componente amoxicilina."
+    "observacoes": "Dose calculada com base no componente amoxicilina.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "amoxicilina_susp",
@@ -2002,7 +2576,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": 90,
     "dose_max_absoluta_mg_dia": 4000,
-    "observacoes": "Dose alta (90mg/kg/dia) para otite média/pneumonia."
+    "observacoes": "Dose alta (90mg/kg/dia) para otite média/pneumonia.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "azitromicina_susp",
@@ -2025,7 +2606,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 500,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "cefalexina_susp",
@@ -2048,7 +2636,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": 100,
     "dose_max_absoluta_mg_dia": 4000,
-    "observacoes": "Conferir rótulo local: concentração pode ser 250mg/5mL (50mg/mL) — validar apresentação real do frasco."
+    "observacoes": "Conferir rótulo local: concentração pode ser 250mg/5mL (50mg/mL) — validar apresentação real do frasco.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "claritromicina_susp",
@@ -2071,7 +2666,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": 15,
     "dose_max_absoluta_mg_dia": 1000,
-    "observacoes": "Conferir rótulo local (provável 250mg/5mL = 50mg/mL). Inibidor do CYP3A4."
+    "observacoes": "Conferir rótulo local (provável 250mg/5mL = 50mg/mL). Inibidor do CYP3A4.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "domperidona",
@@ -2094,7 +2696,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 2.4,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Risco de prolongamento de QT; uso pelo menor tempo possível."
+    "observacoes": "Risco de prolongamento de QT; uso pelo menor tempo possível.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "glicerina_enema",
@@ -2117,7 +2726,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso retal para constipação; volume conforme idade, sem faixa mg/kg."
+    "observacoes": "Uso retal para constipação; volume conforme idade, sem faixa mg/kg.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "hidroxido_aluminio",
@@ -2140,7 +2756,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose em mL/kg/dose (5-15 mL conforme idade em uso adulto); ajustar conforme protocolo pediátrico local."
+    "observacoes": "Dose em mL/kg/dose (5-15 mL conforme idade em uso adulto); ajustar conforme protocolo pediátrico local.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "benzoilmetronidazol",
@@ -2163,7 +2786,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 40,
     "dose_max_absoluta_mg_dia": 4000,
-    "observacoes": "Equivalente ao metronidazol base; usado em giardíase/amebíase."
+    "observacoes": "Equivalente ao metronidazol base; usado em giardíase/amebíase.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "nistatina_susp",
@@ -2186,7 +2816,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose em UI (não mg/kg): 100.000-400.000 UI/dose, bochechar e engolir."
+    "observacoes": "Dose em UI (não mg/kg): 100.000-400.000 UI/dose, bochechar e engolir.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "oleo_mineral",
@@ -2209,7 +2846,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose por mL/kg conforme protocolo; evitar em < 1 ano (risco de aspiração)."
+    "observacoes": "Dose por mL/kg conforme protocolo; evitar em < 1 ano (risco de aspiração).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": true
   },
   {
     "id": "prednisolona_susp",
@@ -2232,7 +2876,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": 2,
     "dose_max_absoluta_mg_dia": 60,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "sulfametoxazol_trimetoprima_susp",
@@ -2255,7 +2906,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose calculada com base no componente trimetoprima (8-10mg/kg/dia)."
+    "observacoes": "Dose calculada com base no componente trimetoprima (8-10mg/kg/dia).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "sais_reidratacao_oral",
@@ -2278,7 +2936,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Diluir conforme instrução do envelope; oferecer livre demanda conforme protocolo de reidratação."
+    "observacoes": "Diluir conforme instrução do envelope; oferecer livre demanda conforme protocolo de reidratação.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "modulo_tcm",
@@ -2302,7 +2967,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Suplementação calórica conforme prescrição nutricional individualizada."
+    "observacoes": "Suplementação calórica conforme prescrição nutricional individualizada.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "acido_ascorbico_gts",
@@ -2325,7 +2997,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 500,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "bromoprida_gts",
@@ -2348,7 +3027,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 3,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Evitar em < 1 ano; risco de reações extrapiramidais."
+    "observacoes": "Evitar em < 1 ano; risco de reações extrapiramidais.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "dipirona_gts",
@@ -2371,7 +3057,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": 100,
     "dose_max_absoluta_mg_dia": 4000,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "ibuprofeno_gts",
@@ -2394,7 +3087,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 40,
     "dose_max_absoluta_mg_dia": 2400,
-    "observacoes": "Evitar em < 6 meses, desidratação, doença renal ou varicela."
+    "observacoes": "Evitar em < 6 meses, desidratação, doença renal ou varicela.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "metoclopramida_gts",
@@ -2417,7 +3117,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 0.5,
     "dose_max_absoluta_mg_dia": 10,
-    "observacoes": "Evitar em crianças pequenas; risco de reações extrapiramidais."
+    "observacoes": "Evitar em crianças pequenas; risco de reações extrapiramidais.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "paracetamol",
@@ -2440,7 +3147,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": 75,
     "dose_max_absoluta_mg_dia": 4000,
-    "observacoes": "Não exceder 5 doses/dia. Ajustar em hepatopatas."
+    "observacoes": "Não exceder 5 doses/dia. Ajustar em hepatopatas.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "simeticona",
@@ -2463,7 +3177,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose baixo risco; sem toxicidade relevante em excesso — ajustar por conforto clínico."
+    "observacoes": "Dose baixo risco; sem toxicidade relevante em excesso — ajustar por conforto clínico.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "sulfato_ferroso",
@@ -2486,7 +3207,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose expressa em mg/kg/dia de ferro elementar (3-6mg/kg/dia para tratamento de anemia)."
+    "observacoes": "Dose expressa em mg/kg/dia de ferro elementar (3-6mg/kg/dia para tratamento de anemia).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "vitaminas_complexo_b_gts",
@@ -2509,7 +3237,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Suplementação; sem faixa mg/kg padronizada — seguir posologia do rótulo."
+    "observacoes": "Suplementação; sem faixa mg/kg padronizada — seguir posologia do rótulo.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "ambroxol_adulto",
@@ -2532,7 +3267,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 90,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "ambroxol_pediatrico",
@@ -2555,7 +3297,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 45,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "dexclorfeniramina",
@@ -2578,7 +3327,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 12,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "hidroxizine",
@@ -2601,7 +3357,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 100,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "lactulose",
@@ -2624,7 +3387,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose em mL/kg/dia (1-2 mL/kg/dia), titular conforme resposta."
+    "observacoes": "Dose em mL/kg/dia (1-2 mL/kg/dia), titular conforme resposta.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "salbutamol_xarope",
@@ -2647,7 +3417,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 0.6,
     "dose_max_absoluta_mg_dia": 20,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "dexametasona_elixir",
@@ -2670,7 +3447,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 16,
-    "observacoes": "Uso comum em laringite/crupe (dose única 0,15-0,6 mg/kg)."
+    "observacoes": "Uso comum em laringite/crupe (dose única 0,15-0,6 mg/kg).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "loratadina",
@@ -2693,7 +3477,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 10,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "cloreto_potassio_xarope",
@@ -2716,7 +3507,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose expressa em mEq/kg/dia; diluir bem, monitorar potássio sérico."
+    "observacoes": "Dose expressa em mEq/kg/dia; diluir bem, monitorar potássio sérico.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "dexametasona_creme",
@@ -2739,7 +3537,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso tópico; sem cálculo de dose sistêmica."
+    "observacoes": "Uso tópico; sem cálculo de dose sistêmica.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "lidocaina_gel",
@@ -2762,7 +3567,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso tópico; atenção à dose máxima cumulativa em mucosas extensas."
+    "observacoes": "Uso tópico; atenção à dose máxima cumulativa em mucosas extensas.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "miconazol_derma",
@@ -2785,7 +3597,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso tópico."
+    "observacoes": "Uso tópico.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "miconazol_ginecologico",
@@ -2808,7 +3627,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso tópico/vaginal."
+    "observacoes": "Uso tópico/vaginal.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "mupirocina",
@@ -2831,7 +3657,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso tópico."
+    "observacoes": "Uso tópico.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "neomicina_bacitracina",
@@ -2854,7 +3687,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso tópico em pequenas feridas/lesões."
+    "observacoes": "Uso tópico em pequenas feridas/lesões.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "nistatina_oxido_zinco",
@@ -2877,7 +3717,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso tópico em dermatite de fralda."
+    "observacoes": "Uso tópico em dermatite de fralda.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "oxido_zinco_pasta",
@@ -2900,7 +3747,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso tópico."
+    "observacoes": "Uso tópico.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": true
   },
   {
     "id": "oxido_zinco_vit_a_d",
@@ -2923,7 +3777,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso tópico em dermatite de fralda."
+    "observacoes": "Uso tópico em dermatite de fralda.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "creme_barreira",
@@ -2946,7 +3807,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso tópico preventivo (lesão por pressão/umidade)."
+    "observacoes": "Uso tópico preventivo (lesão por pressão/umidade).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": true
   },
   {
     "id": "deltrametrina",
@@ -2969,7 +3837,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso tópico único; repetir em 7 dias se necessário."
+    "observacoes": "Uso tópico único; repetir em 7 dias se necessário.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "permetrina",
@@ -2992,7 +3867,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Aplicar em todo o corpo, deixar agir 8-12h; uso permitido a partir de 2 meses."
+    "observacoes": "Aplicar em todo o corpo, deixar agir 8-12h; uso permitido a partir de 2 meses.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "beclometasona_inal",
@@ -3015,7 +3897,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose por protocolo de manutenção (asma); não é dose de resgate agudo."
+    "observacoes": "Dose por protocolo de manutenção (asma); não é dose de resgate agudo.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "brometo_ipratropio",
@@ -3038,7 +3927,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose fixa por nebulização (250-500mcg), não por peso, em crianças > 12 anos/adultos; crianças menores usar 125-250mcg."
+    "observacoes": "Dose fixa por nebulização (250-500mcg), não por peso, em crianças > 12 anos/adultos; crianças menores usar 125-250mcg.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "cloreto_sodio_inal",
@@ -3061,7 +3957,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Usado como diluente para nebulização; sem dose própria."
+    "observacoes": "Usado como diluente para nebulização; sem dose própria.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": true
   },
   {
     "id": "salbutamol_nebulizacao",
@@ -3084,7 +3987,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 5,
-    "observacoes": "Dose de nebulização usual: 2,5-5mg/dose (mín. 2,5mg), independente do peso em muitos protocolos."
+    "observacoes": "Dose de nebulização usual: 2,5-5mg/dose (mín. 2,5mg), independente do peso em muitos protocolos.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "salbutamol_spray",
@@ -3107,7 +4017,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "1-2 jatos (100-200mcg) por administração, preferencialmente com espaçador."
+    "observacoes": "1-2 jatos (100-200mcg) por administração, preferencialmente com espaçador.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "dextrano_hipromelose",
@@ -3130,7 +4047,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Lágrima artificial; sem dose sistêmica."
+    "observacoes": "Lágrima artificial; sem dose sistêmica.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "tobramicina_oftalmica",
@@ -3153,7 +4077,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "1-2 gotas conforme prescrição; uso tópico."
+    "observacoes": "1-2 gotas conforme prescrição; uso tópico.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "tropicamida",
@@ -3176,7 +4107,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso para exame de fundo de olho; uso tópico."
+    "observacoes": "Uso para exame de fundo de olho; uso tópico.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "ciprofloxacino_oftalmico",
@@ -3199,7 +4137,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso tópico."
+    "observacoes": "Uso tópico.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "agua_destilada",
@@ -3222,7 +4167,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso exclusivo como diluente/veículo."
+    "observacoes": "Uso exclusivo como diluente/veículo.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": true
   },
   {
     "id": "cloreto_potassio_10",
@@ -3245,7 +4197,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "NUNCA administrar em bolus/sem diluição — risco de parada cardíaca. Dose em mEq/kg, infusão controlada."
+    "observacoes": "NUNCA administrar em bolus/sem diluição — risco de parada cardíaca. Dose em mEq/kg, infusão controlada.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": true
   },
   {
     "id": "cloreto_sodio_10",
@@ -3268,7 +4227,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Aditivo para correção de sódio; diluir e calcular conforme déficit calculado individualmente."
+    "observacoes": "Aditivo para correção de sódio; diluir e calcular conforme déficit calculado individualmente.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": true
   },
   {
     "id": "gliconato_calcio",
@@ -3291,7 +4257,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 3000,
-    "observacoes": "Infundir lentamente com monitorização cardíaca; extravasamento causa necrose tecidual."
+    "observacoes": "Infundir lentamente com monitorização cardíaca; extravasamento causa necrose tecidual.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": true
   },
   {
     "id": "glicose_50",
@@ -3314,7 +4287,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Hipoglicemia: 0,5-1 g/kg diluído (evitar concentração > 12,5% em acesso periférico/neonatos)."
+    "observacoes": "Hipoglicemia: 0,5-1 g/kg diluído (evitar concentração > 12,5% em acesso periférico/neonatos).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": true
   },
   {
     "id": "sulfato_magnesio",
@@ -3337,7 +4317,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": 200,
     "dose_max_absoluta_mg_dia": 2000,
-    "observacoes": "Infundir lentamente (risco de hipotensão). Monitorar reflexos e frequência respiratória."
+    "observacoes": "Infundir lentamente (risco de hipotensão). Monitorar reflexos e frequência respiratória.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": true
   },
   {
     "id": "manitol",
@@ -3360,7 +4347,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso em hipertensão intracraniana; monitorar osmolaridade sérica e função renal."
+    "observacoes": "Uso em hipertensão intracraniana; monitorar osmolaridade sérica e função renal.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": true
   },
   {
     "id": "contraste_nao_ionico",
@@ -3383,7 +4377,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose calculada pelo radiologista conforme exame e peso; sem faixa mg/kg de uso geral."
+    "observacoes": "Dose calculada pelo radiologista conforme exame e peso; sem faixa mg/kg de uso geral.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "contraste_meglumina",
@@ -3406,7 +4407,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose calculada pelo radiologista conforme exame."
+    "observacoes": "Dose calculada pelo radiologista conforme exame.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "sulfato_bario",
@@ -3429,7 +4437,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso exclusivo para exames contrastados do trato digestivo."
+    "observacoes": "Uso exclusivo para exames contrastados do trato digestivo.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "anfotericina_b",
@@ -3452,7 +4467,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Nefrotóxica; infundir lentamente, pré-hidratar, monitorar eletrólitos e função renal."
+    "observacoes": "Nefrotóxica; infundir lentamente, pré-hidratar, monitorar eletrólitos e função renal.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "atracurio",
@@ -3475,7 +4497,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso exclusivo sob monitorização (anestesia/UTI) por profissional habilitado."
+    "observacoes": "Uso exclusivo sob monitorização (anestesia/UTI) por profissional habilitado.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "insulina_regular",
@@ -3499,7 +4528,14 @@
     "intervalo_horas_max": 1,
     "dose_max_dia_mg_kg": 2.4,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose expressa em UI/kg/h (infusão contínua em cetoacidose diabética: 0,05-0,1 UI/kg/h)."
+    "observacoes": "Dose expressa em UI/kg/h (infusão contínua em cetoacidose diabética: 0,05-0,1 UI/kg/h).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "insulina_nph",
@@ -3522,7 +4558,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": 1.5,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose expressa em UI/kg/dia; individualizar conforme monitorização glicêmica."
+    "observacoes": "Dose expressa em UI/kg/dia; individualizar conforme monitorização glicêmica.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "pancuronio",
@@ -3545,7 +4588,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso exclusivo sob monitorização (anestesia/UTI) por profissional habilitado."
+    "observacoes": "Uso exclusivo sob monitorização (anestesia/UTI) por profissional habilitado.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "rocuronio",
@@ -3568,7 +4618,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Intubação de sequência rápida; uso exclusivo por profissional habilitado."
+    "observacoes": "Intubação de sequência rápida; uso exclusivo por profissional habilitado.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "glicerina_supositorio",
@@ -3591,7 +4648,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso retal para constipação; sem cálculo de mg/kg."
+    "observacoes": "Uso retal para constipação; sem cálculo de mg/kg.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "anfotericina_lipossomal",
@@ -3614,7 +4678,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Menos nefrotóxica que a formulação convencional; ainda assim monitorar função renal."
+    "observacoes": "Menos nefrotóxica que a formulação convencional; ainda assim monitorar função renal.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "caspofungina",
@@ -3637,7 +4708,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 70,
-    "observacoes": "Dose de ataque 70mg/m² (dia 1), manutenção 50mg/m²/dia — aqui aproximado por mg/kg para triagem; validar com farmácia."
+    "observacoes": "Dose de ataque 70mg/m² (dia 1), manutenção 50mg/m²/dia — aqui aproximado por mg/kg para triagem; validar com farmácia.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "linezolida",
@@ -3661,7 +4739,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 600,
-    "observacoes": "Risco de síndrome serotoninérgica com ISRS/tramadol/opioides serotonérgicos. Monitorar hemograma (mielossupressão)."
+    "observacoes": "Risco de síndrome serotoninérgica com ISRS/tramadol/opioides serotonérgicos. Monitorar hemograma (mielossupressão).",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "micafungina",
@@ -3689,7 +4774,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "polimixina_b",
@@ -3712,7 +4804,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose em UI/kg/dia. Nefrotóxica; monitorar função renal."
+    "observacoes": "Dose em UI/kg/dia. Nefrotóxica; monitorar função renal.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "teicoplanina",
@@ -3741,7 +4840,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose de ataque a cada 12h nas primeiras 3 doses, depois 1x/dia."
+    "observacoes": "Dose de ataque a cada 12h nas primeiras 3 doses, depois 1x/dia.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "tigeciclina",
@@ -3764,7 +4870,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 100,
-    "observacoes": "Uso restrito/reserva; experiência pediátrica limitada — avaliar com infectologia."
+    "observacoes": "Uso restrito/reserva; experiência pediátrica limitada — avaliar com infectologia.",
+    "disponivel": true,
+    "uso_controlado": false,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "clorpromazina",
@@ -3788,7 +4901,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 75,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "dexmedetomidina",
@@ -3811,7 +4931,14 @@
     "intervalo_horas_max": 1,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose em mcg/kg/h (infusão contínua, titulável), pode usar dose de ataque 0,5-1mcg/kg em 10min."
+    "observacoes": "Dose em mcg/kg/h (infusão contínua, titulável), pode usar dose de ataque 0,5-1mcg/kg em 10min.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "diazepam_inj",
@@ -3835,7 +4962,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 10,
-    "observacoes": "Crise convulsiva aguda: 0,2-0,3mg/kg EV lento (máx. 10mg) ou 0,5mg/kg retal."
+    "observacoes": "Crise convulsiva aguda: 0,2-0,3mg/kg EV lento (máx. 10mg) ou 0,5mg/kg retal.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "B1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "escetamina",
@@ -3859,7 +4993,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Sedação/indução anestésica; uso por profissional habilitado com monitorização."
+    "observacoes": "Sedação/indução anestésica; uso por profissional habilitado com monitorização.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "Controle especial (verificar lista atualizada)",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "etomidato",
@@ -3882,7 +5023,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Indução anestésica em sequência rápida; uso por profissional habilitado."
+    "observacoes": "Indução anestésica em sequência rápida; uso por profissional habilitado.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "fenitoina",
@@ -3905,7 +5053,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 1500,
-    "observacoes": "Dose de ataque (status epilepticus). Diluir em SF 0,9% (precipita em glicose); infundir devagar."
+    "observacoes": "Dose de ataque (status epilepticus). Diluir em SF 0,9% (precipita em glicose); infundir devagar.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "fenobarbital_inj",
@@ -3929,7 +5084,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 1000,
-    "observacoes": "Dose de ataque em crise convulsiva. Risco de depressão respiratória, potencializado por outros depressores do SNC."
+    "observacoes": "Dose de ataque em crise convulsiva. Risco de depressão respiratória, potencializado por outros depressores do SNC.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "B1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "fentanil",
@@ -3962,7 +5124,14 @@
     "intervalo_horas_max": 2,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Analgesia/sedação: 1-2 mcg/kg/dose; infusão contínua 0,5-2 mcg/kg/h em UTI."
+    "observacoes": "Analgesia/sedação: 1-2 mcg/kg/dose; infusão contínua 0,5-2 mcg/kg/h em UTI.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "A1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "flumazenil",
@@ -3985,7 +5154,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 0.2,
-    "observacoes": "Reversão de sedação por benzodiazepínico; pode repetir a cada minuto até máx. 1mg."
+    "observacoes": "Reversão de sedação por benzodiazepínico; pode repetir a cada minuto até máx. 1mg.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "haloperidol_inj",
@@ -4009,7 +5185,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 5,
-    "observacoes": "Uso pediátrico restrito; monitorar QT e sintomas extrapiramidais."
+    "observacoes": "Uso pediátrico restrito; monitorar QT e sintomas extrapiramidais.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "haloperidol_decanoato",
@@ -4032,7 +5215,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Formulação de depósito (ação prolongada); uso raro em pediatria — decisão de psiquiatria."
+    "observacoes": "Formulação de depósito (ação prolongada); uso raro em pediatria — decisão de psiquiatria.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "midazolam",
@@ -4067,7 +5257,14 @@
     "intervalo_horas_max": 6,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 10,
-    "observacoes": "Depressor de SNC; risco de depressão respiratória associado a opioides."
+    "observacoes": "Depressor de SNC; risco de depressão respiratória associado a opioides.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "B1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "morfina",
@@ -4097,7 +5294,14 @@
     "intervalo_horas_max": 4,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 15,
-    "observacoes": "Monitorar sedação e depressão respiratória, especialmente com outros depressores do SNC. Apresentação diluída (0,2mg/mL) útil para doses pequenas em neonatos/lactentes."
+    "observacoes": "Monitorar sedação e depressão respiratória, especialmente com outros depressores do SNC. Apresentação diluída (0,2mg/mL) útil para doses pequenas em neonatos/lactentes.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "A1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "naloxona",
@@ -4122,7 +5326,14 @@
     "intervalo_horas_max": 3,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 2,
-    "observacoes": "Repetir conforme necessário; meia-vida curta pode exigir doses repetidas/infusão."
+    "observacoes": "Repetir conforme necessário; meia-vida curta pode exigir doses repetidas/infusão.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "remifentanila",
@@ -4145,7 +5356,14 @@
     "intervalo_horas_max": 1,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose em mcg/kg/min, infusão contínua sob monitorização anestésica/UTI."
+    "observacoes": "Dose em mcg/kg/min, infusão contínua sob monitorização anestésica/UTI.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "A1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "sugamadex",
@@ -4168,7 +5386,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dose depende do grau de bloqueio neuromuscular (2-4mg/kg de rotina; até 16mg/kg em reversão imediata)."
+    "observacoes": "Dose depende do grau de bloqueio neuromuscular (2-4mg/kg de rotina; até 16mg/kg em reversão imediata).",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "tramadol",
@@ -4197,7 +5422,14 @@
     "intervalo_horas_max": 8,
     "dose_max_dia_mg_kg": 8,
     "dose_max_absoluta_mg_dia": 400,
-    "observacoes": "Reduz limiar convulsivo; risco de síndrome serotoninérgica com outros serotonérgicos."
+    "observacoes": "Reduz limiar convulsivo; risco de síndrome serotoninérgica com outros serotonérgicos.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "A1 (verificar atualização ANVISA)",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "propofol",
@@ -4220,7 +5452,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Indução: 1-2,5mg/kg. Sedação contínua em mcg/kg/min sob monitorização; evitar infusão prolongada em crianças (risco de síndrome da infusão do propofol)."
+    "observacoes": "Indução: 1-2,5mg/kg. Sedação contínua em mcg/kg/min sob monitorização; evitar infusão prolongada em crianças (risco de síndrome da infusão do propofol).",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "sevoflurano",
@@ -4243,7 +5482,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Dosado por concentração expirada (%), não por mg/kg; uso exclusivo por anestesiologista."
+    "observacoes": "Dosado por concentração expirada (%), não por mg/kg; uso exclusivo por anestesiologista.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "tiopental",
@@ -4266,7 +5512,14 @@
     "intervalo_horas_max": null,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Indução anestésica/coma barbitúrico; uso exclusivo sob monitorização intensiva."
+    "observacoes": "Indução anestésica/coma barbitúrico; uso exclusivo sob monitorização intensiva.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "B1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "carbamazepina_susp",
@@ -4289,7 +5542,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": 35,
     "dose_max_absoluta_mg_dia": 1200,
-    "observacoes": "Iniciar com dose baixa e titular lentamente."
+    "observacoes": "Iniciar com dose baixa e titular lentamente.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "clonazepam_gts",
@@ -4312,7 +5572,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Iniciar com dose baixa; sedação e depressão respiratória em associação com outros depressores."
+    "observacoes": "Iniciar com dose baixa; sedação e depressão respiratória em associação com outros depressores.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "B1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "fenobarbital_susp",
@@ -4335,7 +5602,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Manutenção (dose de ataque é maior, via injetável)."
+    "observacoes": "Manutenção (dose de ataque é maior, via injetável).",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "B1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "haloperidol_gts",
@@ -4358,7 +5632,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 5,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "valproato_xarope",
@@ -4381,7 +5662,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": 60,
     "dose_max_absoluta_mg_dia": 3000,
-    "observacoes": "Hepatotoxicidade; monitorar função hepática. Contraindicado em suspeita de doença mitocondrial."
+    "observacoes": "Hepatotoxicidade; monitorar função hepática. Contraindicado em suspeita de doença mitocondrial.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "levetiracetam_susp",
@@ -4404,7 +5692,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": 60,
     "dose_max_absoluta_mg_dia": 3000,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": true,
+    "farmaceutico_define_frascos": true,
+    "uso_coletivo": false
   },
   {
     "id": "acido_ursodesoxicolico",
@@ -4427,7 +5722,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": false,
+    "portaria_344_lista": null,
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "carbamazepina_comp",
@@ -4450,7 +5752,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": 35,
     "dose_max_absoluta_mg_dia": 1200,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "clobazam",
@@ -4473,7 +5782,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 40,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "B1",
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "clonazepam_comp",
@@ -4496,7 +5812,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "B1",
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "diazepam_comp",
@@ -4524,7 +5847,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 10,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "B1",
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "fenobarbital_comp",
@@ -4547,7 +5877,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "B1",
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "fluoxetina",
@@ -4570,7 +5907,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 60,
-    "observacoes": "Uso a partir de 7-8 anos conforme indicação; iniciar com dose baixa."
+    "observacoes": "Uso a partir de 7-8 anos conforme indicação; iniciar com dose baixa.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "haloperidol_comp",
@@ -4598,7 +5942,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 5,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "lamotrigina",
@@ -4621,7 +5972,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Titulação muito lenta e específica (risco de Stevens-Johnson); seguir protocolo detalhado."
+    "observacoes": "Titulação muito lenta e específica (risco de Stevens-Johnson); seguir protocolo detalhado.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "levetiracetam_comp",
@@ -4644,7 +6002,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": 60,
     "dose_max_absoluta_mg_dia": 3000,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "lorazepam",
@@ -4667,7 +6032,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 4,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "B1",
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "metadona",
@@ -4695,7 +6067,14 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": null,
-    "observacoes": "Uso em desmame de opioides/dor crônica; meia-vida longa e variável — ajuste sob supervisão especializada."
+    "observacoes": "Uso em desmame de opioides/dor crônica; meia-vida longa e variável — ajuste sob supervisão especializada.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "A1",
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "risperidona",
@@ -4723,7 +6102,14 @@
     "intervalo_horas_max": 24,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 6,
-    "observacoes": ""
+    "observacoes": "",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   },
   {
     "id": "topiramato",
@@ -4751,6 +6137,13 @@
     "intervalo_horas_max": 12,
     "dose_max_dia_mg_kg": null,
     "dose_max_absoluta_mg_dia": 400,
-    "observacoes": "Iniciar com dose baixa e titular lentamente."
+    "observacoes": "Iniciar com dose baixa e titular lentamente.",
+    "disponivel": true,
+    "uso_controlado": true,
+    "portaria_344": true,
+    "portaria_344_lista": "C1",
+    "requer_dose_unitaria": false,
+    "farmaceutico_define_frascos": false,
+    "uso_coletivo": false
   }
 ]

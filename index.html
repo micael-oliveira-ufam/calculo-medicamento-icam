@@ -33,6 +33,7 @@
     <button class="tab-btn" data-tab="frascos">💊 Frascos / Ampolas</button>
     <button class="tab-btn" data-tab="unitaria">💉 Dose Unitária</button>
     <button class="tab-btn" data-tab="bulario">📚 Bulário</button>
+    <button class="tab-btn" data-tab="hospital">🏥 Medicamentos do Hospital</button>
   </nav>
 
   <main class="container">
@@ -138,6 +139,62 @@
       </div>
       <p class="contador-resultados" id="contador-bulario"></p>
       <div id="lista-bulario" class="bulario-grid"></div>
+    </section>
+
+    <!-- ABA: Medicamentos do Hospital (classificação operacional/regulatória) -->
+    <section id="tab-hospital" class="tab-panel">
+      <h2>Medicamentos do Hospital — Classificação e Controle</h2>
+      <p class="help-text">
+        Painel com todos os medicamentos do formulário do ICAM e sua classificação operacional:
+        disponibilidade, uso controlado, enquadramento na Portaria SVS/MS n° 344/98,
+        necessidade de cálculo de dose unitária, itens em que o <strong>farmacêutico deve definir
+        a quantidade de frascos/ampolas liberada</strong> (medicamentos da Portaria 344 dispensados
+        em frasco/ampola/frasco de solução — não em comprimido unitário) e itens de
+        <strong>uso coletivo</strong> (estoque comum, não individualizado por paciente).
+      </p>
+      <div class="disclaimer disclaimer-inline">
+        ⚠️ Classificação de partida baseada na própria organização do formulário do ICAM e em
+        conhecimento farmacológico geral. A relação de itens na Portaria 344, a lista de uso
+        coletivo e a disponibilidade em estoque <strong>devem ser conferidas e mantidas pelo
+        farmacêutico responsável</strong> antes de qualquer uso operacional.
+      </div>
+
+      <div class="stats-grid" id="stats-hospital"></div>
+
+      <div class="card bulario-toolbar">
+        <input type="text" id="filtro-hospital" placeholder="Filtrar por nome ou classe...">
+        <select id="filtro-categoria-hospital">
+          <option value="">Todas as categorias</option>
+        </select>
+      </div>
+      <div class="toggle-filtros" id="toggle-filtros-hospital">
+        <button type="button" class="toggle-chip" data-filtro="disponivel">✅ Disponível</button>
+        <button type="button" class="toggle-chip" data-filtro="uso_controlado">🔒 Uso controlado</button>
+        <button type="button" class="toggle-chip" data-filtro="portaria_344">⚖️ Portaria 344</button>
+        <button type="button" class="toggle-chip" data-filtro="requer_dose_unitaria">💉 Requer dose unitária</button>
+        <button type="button" class="toggle-chip" data-filtro="farmaceutico_define_frascos">🧑‍⚕️ Farmacêutico define frascos</button>
+        <button type="button" class="toggle-chip" data-filtro="uso_coletivo">🗄️ Uso coletivo</button>
+        <button type="button" class="btn btn-secondary btn-limpar-filtros" id="btn-limpar-filtros-hospital">Limpar filtros</button>
+      </div>
+
+      <p class="contador-resultados" id="contador-hospital"></p>
+      <div class="tabela-scroll">
+        <table class="tabela-hospital" id="tabela-hospital">
+          <thead>
+            <tr>
+              <th>Medicamento</th>
+              <th>Categoria</th>
+              <th>Disponível</th>
+              <th>Uso controlado</th>
+              <th>Portaria 344</th>
+              <th>Dose unitária</th>
+              <th>Farm. define frascos</th>
+              <th>Uso coletivo</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-hospital-corpo"></tbody>
+        </table>
+      </div>
     </section>
 
   </main>

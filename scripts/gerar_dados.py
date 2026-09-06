@@ -68,6 +68,112 @@ CTRL_ANEST = "Controlados Anestésicos"
 CTRL_ORAL_GTS = "Controlados Orais e Gotas"
 CTRL_COMP = "Controlados Comprimidos"
 
+# ---------------------------------------------------------------------------
+# Classificação regulatória/operacional (painel "Medicamentos do Hospital")
+# ---------------------------------------------------------------------------
+# As categorias abaixo, usadas para derivar boa parte desses campos, refletem
+# a própria divisão do formulário do ICAM (que já separa "Controlados" dos
+# demais itens). Os campos derivados aqui são um ponto de partida — a
+# classificação legal (Portaria SVS/MS 344/98) e as listas de uso coletivo
+# DEVEM ser conferidas e mantidas pelo farmacêutico responsável do ICAM.
+
+# Categorias que o próprio ICAM já trata como "Controlados" no formulário
+# (sujeitas a controle especial de dispensação/guarda).
+CATEGORIAS_CONTROLADAS = {CTRL_INJ, CTRL_ANEST, CTRL_ORAL_GTS, CTRL_COMP}
+
+# Categorias em que o conceito de "dose unitária" (cálculo de fração de
+# frasco/ampola/frasco por dose) não se aplica — uso tópico/local, sem
+# posologia sistêmica por peso.
+SEM_DOSE_UNITARIA_CATEGORIAS = {TOP, OFT, CONT}
+
+# Medicamentos efetivamente listados na Portaria SVS/MS n° 344/98 (controle
+# especial), com a respectiva lista/anexo. Mapeamento por conhecimento
+# farmacológico geral — CONFIRMAR com a farmácia/RT antes de uso oficial,
+# especialmente os marcados "verificar" (classificação com atualizações
+# recentes da ANVISA).
+PORTARIA_344 = {
+    # Lista A1 — entorpecentes
+    "morfina": "A1",
+    "fentanil": "A1",
+    "metadona": "A1",
+    "remifentanila": "A1",
+    "tramadol": "A1 (verificar atualização ANVISA)",
+    # Controle especial de abuso — classificação sujeita a confirmação
+    "escetamina": "Controle especial (verificar lista atualizada)",
+    # Lista B1 — psicotrópicos (benzodiazepínicos e barbitúricos)
+    "midazolam": "B1",
+    "diazepam_inj": "B1",
+    "diazepam_comp": "B1",
+    "clonazepam_gts": "B1",
+    "clonazepam_comp": "B1",
+    "lorazepam": "B1",
+    "clobazam": "B1",
+    "fenobarbital_inj": "B1",
+    "fenobarbital_susp": "B1",
+    "fenobarbital_comp": "B1",
+    "tiopental": "B1",
+    # Lista C1 — outras substâncias sujeitas a controle especial
+    "haloperidol_inj": "C1",
+    "haloperidol_comp": "C1",
+    "haloperidol_gts": "C1",
+    "haloperidol_decanoato": "C1",
+    "clorpromazina": "C1",
+    "risperidona": "C1",
+    "fenitoina": "C1",
+    "carbamazepina_comp": "C1",
+    "carbamazepina_susp": "C1",
+    "valproato_xarope": "C1",
+    "topiramato": "C1",
+    "lamotrigina": "C1",
+    "levetiracetam_comp": "C1",
+    "levetiracetam_susp": "C1",
+    "fluoxetina": "C1",
+}
+
+# Medicamentos de "uso coletivo" (mantidos como estoque comum/de posto,
+# não individualizados por paciente) — diluentes, soluções e eletrólitos de
+# uso corrente. Lista de partida; a relação oficial de uso coletivo do ICAM
+# deve ser validada pela CFT/farmácia.
+USO_COLETIVO_IDS = {
+    "agua_destilada",
+    "cloreto_sodio_10",
+    "cloreto_sodio_inal",
+    "glicose_50",
+    "gliconato_calcio",
+    "sulfato_magnesio",
+    "manitol",
+    "oleo_mineral",
+    "creme_barreira",
+    "oxido_zinco_pasta",
+}
+
+
+def classificar(med):
+    """Preenche os campos de classificação operacional/regulatória usados no
+    painel "Medicamentos do Hospital": disponibilidade, uso controlado,
+    lista da Portaria 344, necessidade de dose unitária, necessidade de o
+    farmacêutico definir a quantidade de frascos/ampolas liberada, e uso
+    coletivo vs. individualizado.
+    """
+    categoria = med["categoria"]
+    apresentacoes = med["apresentacoes"]
+
+    lista_344 = PORTARIA_344.get(med["id"])
+    portaria_344 = lista_344 is not None
+
+    requer_dose_unitaria = categoria not in SEM_DOSE_UNITARIA_CATEGORIAS and any(
+        not ap["unidade"].endswith("/comprimido") for ap in apresentacoes
+    )
+
+    med["disponivel"] = True
+    med["uso_controlado"] = categoria in CATEGORIAS_CONTROLADAS
+    med["portaria_344"] = portaria_344
+    med["portaria_344_lista"] = lista_344
+    med["requer_dose_unitaria"] = requer_dose_unitaria
+    med["farmaceutico_define_frascos"] = portaria_344 and requer_dose_unitaria
+    med["uso_coletivo"] = categoria == ELET or med["id"] in USO_COLETIVO_IDS
+    return med
+
 MEDICAMENTOS = [
     # ------------------------------------------------------------ INJETÁVEIS
     m("acetilcisteina", "Acetilcisteína", "Mucolítico / Antídoto (paracetamol)", INJ,
@@ -804,6 +910,16 @@ def main():
     duplicados = {i for i in ids if ids.count(i) > 1}
     if duplicados:
         raise SystemExit(f"IDs duplicados encontrados: {duplicados}")
+
+    ids_invalidos = set(PORTARIA_344) - set(ids)
+    if ids_invalidos:
+        raise SystemExit(f"PORTARIA_344 referencia id(s) inexistente(s): {ids_invalidos}")
+    ids_invalidos = USO_COLETIVO_IDS - set(ids)
+    if ids_invalidos:
+        raise SystemExit(f"USO_COLETIVO_IDS referencia id(s) inexistente(s): {ids_invalidos}")
+
+    for med in MEDICAMENTOS:
+        classificar(med)
 
     DATA_DIR.mkdir(exist_ok=True)
     out_path = DATA_DIR / "medicamentos.json"

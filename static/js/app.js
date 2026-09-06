@@ -45,6 +45,10 @@
 
     popularSelectCategorias($("#filtro-categoria"), true);
     renderBulario(MEDICAMENTOS);
+
+    popularSelectCategorias($("#filtro-categoria-hospital"), true);
+    renderStatsHospital(MEDICAMENTOS);
+    aplicarFiltrosHospital();
   }
 
   function popularSelectCategorias(select, comTodas) {
@@ -396,11 +400,105 @@
   }
 
   // ---------------------------------------------------------------------
+  // Aba: Medicamentos do Hospital (classificação e controle)
+  // ---------------------------------------------------------------------
+  const FILTROS_HOSPITAL_ATIVOS = new Set();
+
+  function flagIcone(valor) {
+    return valor ? '<span class="flag-sim" title="Sim">✓</span>' : '<span class="flag-nao" title="Não">–</span>';
+  }
+
+  function renderStatsHospital(lista) {
+    const total = lista.length;
+    const contar = (campo) => lista.filter((m) => m[campo]).length;
+    const stats = [
+      { label: "Total no formulário", valor: total },
+      { label: "Disponíveis", valor: contar("disponivel") },
+      { label: "Uso controlado", valor: contar("uso_controlado") },
+      { label: "Portaria 344", valor: contar("portaria_344") },
+      { label: "Requerem dose unitária", valor: contar("requer_dose_unitaria") },
+      { label: "Farmacêutico define frascos", valor: contar("farmaceutico_define_frascos") },
+      { label: "Uso coletivo", valor: contar("uso_coletivo") },
+    ];
+    $("#stats-hospital").innerHTML = stats
+      .map((s) => `<div class="stat-card"><span class="stat-numero">${s.valor}</span><span class="stat-label">${s.label}</span></div>`)
+      .join("");
+  }
+
+  function renderTabelaHospital(lista) {
+    const corpo = $("#tabela-hospital-corpo");
+    const contador = $("#contador-hospital");
+    contador.textContent = `${lista.length} medicamento(s) encontrado(s) de ${MEDICAMENTOS.length} no formulário do ICAM.`;
+
+    if (lista.length === 0) {
+      corpo.innerHTML = `<tr><td colspan="8" class="empty-state">Nenhum medicamento encontrado com esses filtros.</td></tr>`;
+      return;
+    }
+
+    corpo.innerHTML = lista
+      .map((m) => {
+        const portariaSub = m.portaria_344 && m.portaria_344_lista ? `<span class="subtexto">${m.portaria_344_lista}</span>` : "";
+        return `
+        <tr>
+          <td>${m.nome}<span class="subtexto">${m.classe}</span></td>
+          <td>${m.categoria}</td>
+          <td>${flagIcone(m.disponivel)}</td>
+          <td>${flagIcone(m.uso_controlado)}</td>
+          <td>${flagIcone(m.portaria_344)}${portariaSub}</td>
+          <td>${flagIcone(m.requer_dose_unitaria)}</td>
+          <td>${flagIcone(m.farmaceutico_define_frascos)}</td>
+          <td>${flagIcone(m.uso_coletivo)}</td>
+        </tr>`;
+      })
+      .join("");
+  }
+
+  function aplicarFiltrosHospital() {
+    const termo = $("#filtro-hospital").value.toLowerCase();
+    const categoria = $("#filtro-categoria-hospital").value;
+    const filtrados = MEDICAMENTOS.filter((m) => {
+      const bateTermo = !termo || m.nome.toLowerCase().includes(termo) || m.classe.toLowerCase().includes(termo);
+      const bateCategoria = !categoria || m.categoria === categoria;
+      const bateFlags = [...FILTROS_HOSPITAL_ATIVOS].every((campo) => m[campo]);
+      return bateTermo && bateCategoria && bateFlags;
+    });
+    renderTabelaHospital(filtrados);
+  }
+
+  function initHospitalFiltros() {
+    $("#filtro-hospital").addEventListener("input", aplicarFiltrosHospital);
+    $("#filtro-categoria-hospital").addEventListener("change", aplicarFiltrosHospital);
+
+    $$(".toggle-chip", $("#toggle-filtros-hospital")).forEach((chip) => {
+      chip.addEventListener("click", () => {
+        const campo = chip.dataset.filtro;
+        if (FILTROS_HOSPITAL_ATIVOS.has(campo)) {
+          FILTROS_HOSPITAL_ATIVOS.delete(campo);
+          chip.classList.remove("active");
+        } else {
+          FILTROS_HOSPITAL_ATIVOS.add(campo);
+          chip.classList.add("active");
+        }
+        aplicarFiltrosHospital();
+      });
+    });
+
+    $("#btn-limpar-filtros-hospital").addEventListener("click", () => {
+      FILTROS_HOSPITAL_ATIVOS.clear();
+      $$(".toggle-chip", $("#toggle-filtros-hospital")).forEach((chip) => chip.classList.remove("active"));
+      $("#filtro-hospital").value = "";
+      $("#filtro-categoria-hospital").value = "";
+      aplicarFiltrosHospital();
+    });
+  }
+
+  // ---------------------------------------------------------------------
   // Inicialização
   // ---------------------------------------------------------------------
   document.addEventListener("DOMContentLoaded", async () => {
     initTabs();
     initBularioFiltros();
+    initHospitalFiltros();
 
     try {
       await carregarDados();

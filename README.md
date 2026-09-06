@@ -23,6 +23,12 @@ do ICAM (pedido semanal da Farmácia CAF) e permite:
   todos os ~200 itens do formulário — injetáveis, comprimidos, suspensões,
   gotas, xaropes, tópicos, inalatórios, oftálmicos, eletrólitos, termolábeis,
   antimicrobianos de reserva e controlados.
+- **Medicamentos do Hospital**: painel de classificação operacional de todos
+  os itens do formulário — disponibilidade, uso controlado, enquadramento na
+  Portaria SVS/MS n° 344/98 (com a lista/anexo), necessidade de cálculo de
+  dose unitária, itens em que o farmacêutico deve definir a quantidade de
+  frascos/ampolas liberada, e itens de uso coletivo (estoque comum) — com
+  filtros combináveis e contadores por classificação.
 
 > ⚠️ **Aviso importante**: esta ferramenta é um apoio à decisão clínica. As
 > faixas de dose foram preenchidas com base em literatura pediátrica padrão
@@ -102,6 +108,26 @@ Isso regrava `data/medicamentos.json`. Para registrar uma nova interação,
 adicione um objeto em `data/interacoes.json` com o par de `id`s dos
 medicamentos, a gravidade (`leve`, `moderada` ou `grave`) e a descrição
 clínica da interação.
+
+### Classificação usada no painel "Medicamentos do Hospital"
+
+A maior parte dos campos de classificação (`disponivel`, `uso_controlado`,
+`requer_dose_unitaria`, `farmaceutico_define_frascos`) é **derivada
+automaticamente** pela função `classificar()` em `scripts/gerar_dados.py`,
+a partir da categoria e das apresentações de cada item — não precisa ser
+editada manualmente. Os dois campos que dependem de conhecimento
+regulatório/institucional específico são mantidos como dicionários no topo
+do script e devem ser atualizados diretamente pela farmácia:
+
+- `PORTARIA_344`: mapeia o `id` do medicamento à lista/anexo da Portaria
+  SVS/MS n° 344/98 (ex.: `"A1"`, `"B1"`, `"C1"`). Itens marcados
+  "(verificar...)" indicam classificação sujeita a confirmação.
+- `USO_COLETIVO_IDS`: ids de itens mantidos como estoque comum/de posto
+  (não individualizados por paciente), além de tudo que já está na
+  categoria "Eletrólitos".
+
+Depois de editar qualquer um dos dois, rode `python3 scripts/gerar_dados.py`
+novamente para regravar `data/medicamentos.json`.
 
 ## Como rodar os testes
 

@@ -160,3 +160,47 @@ def test_interacoes_referenciam_medicamentos_existentes():
     for interacao in interacoes_db:
         for med_id in interacao["medicamentos"]:
             assert med_id in medicamentos_db, f"Interação referencia medicamento inexistente: {med_id}"
+
+
+CAMPOS_CLASSIFICACAO_HOSPITAL = [
+    "disponivel",
+    "uso_controlado",
+    "portaria_344",
+    "portaria_344_lista",
+    "requer_dose_unitaria",
+    "farmaceutico_define_frascos",
+    "uso_coletivo",
+]
+
+
+def test_medicamentos_tem_campos_de_classificacao_hospitalar():
+    medicamentos_db = calculos.carregar_medicamentos()
+    for medicamento_id, medicamento in medicamentos_db.items():
+        for campo in CAMPOS_CLASSIFICACAO_HOSPITAL:
+            assert campo in medicamento, f"{medicamento_id} não possui o campo '{campo}'"
+
+
+def test_farmaceutico_define_frascos_implica_portaria_344_e_dose_unitaria():
+    medicamentos_db = calculos.carregar_medicamentos()
+    for medicamento_id, medicamento in medicamentos_db.items():
+        if medicamento["farmaceutico_define_frascos"]:
+            assert medicamento["portaria_344"], f"{medicamento_id}: define_frascos sem portaria_344"
+            assert medicamento["requer_dose_unitaria"], f"{medicamento_id}: define_frascos sem requer_dose_unitaria"
+
+
+def test_portaria_344_tem_lista_preenchida():
+    medicamentos_db = calculos.carregar_medicamentos()
+    for medicamento_id, medicamento in medicamentos_db.items():
+        if medicamento["portaria_344"]:
+            assert medicamento["portaria_344_lista"], f"{medicamento_id}: portaria_344 sem lista especificada"
+        else:
+            assert medicamento["portaria_344_lista"] is None
+
+
+def test_medicamentos_portaria_344_pertencem_a_categoria_controlada():
+    medicamentos_db = calculos.carregar_medicamentos()
+    for medicamento_id, medicamento in medicamentos_db.items():
+        if medicamento["portaria_344"]:
+            assert medicamento["uso_controlado"], (
+                f"{medicamento_id}: consta na Portaria 344 mas não está marcado como uso_controlado"
+            )
