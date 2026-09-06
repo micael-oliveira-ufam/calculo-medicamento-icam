@@ -1,7 +1,9 @@
 # Cálculo de Medicamentos — ICAM
 
-Ferramenta web para apoio à farmácia clínica pediátrica do ICAM (Instituto da
-Criança e do Adolescente do Amazonas). Permite:
+Ferramenta web **estática** (HTML + CSS + JavaScript, sem backend) para
+apoio à farmácia clínica pediátrica do ICAM (Instituto da Criança e do
+Adolescente do Amazonas). Cobre os medicamentos do formulário padronizado
+do ICAM (pedido semanal da Farmácia CAF) e permite:
 
 - **Avaliar prescrições**: para cada medicamento prescrito, calcula a dose em
   mg/kg/dose e mg/kg/dia e classifica como abaixo, dentro ou acima da faixa
@@ -17,73 +19,107 @@ Criança e do Adolescente do Amazonas). Permite:
 - **Calcular dose unitária**: converte uma dose prescrita (mg) na quantidade
   correspondente de uma apresentação (mL, comprimidos, etc.), útil para
   fracionamento.
-- **Bulário interno**: consulta rápida da base de medicamentos cadastrados,
-  com faixas de dose, intervalos, apresentações e observações.
+- **Bulário do ICAM**: consulta e filtro (por nome, classe ou categoria) de
+  todos os ~200 itens do formulário — injetáveis, comprimidos, suspensões,
+  gotas, xaropes, tópicos, inalatórios, oftálmicos, eletrólitos, termolábeis,
+  antimicrobianos de reserva e controlados.
 
 > ⚠️ **Aviso importante**: esta ferramenta é um apoio à decisão clínica. As
-> faixas de dose e a base de interações são referências gerais e **devem
-> sempre ser confrontadas** com o protocolo institucional vigente, a bula
-> atualizada dos medicamentos e o julgamento clínico do prescritor/farmacêutico
-> responsável antes de qualquer decisão terapêutica. A base de dados de
-> medicamentos e interações (`data/medicamentos.json` e
-> `data/interacoes.json`) deve ser revisada e validada pela farmácia clínica
-> da instituição antes do uso em ambiente de produção.
+> faixas de dose foram preenchidas com base em literatura pediátrica padrão
+> (no mesmo espírito das fichas técnicas de guias farmacêuticos hospitalares,
+> como o do Hospital Sírio-Libanês) e a base de interações cobre as
+> combinações clinicamente mais relevantes entre os itens do formulário do
+> ICAM — nenhuma das duas é exaustiva. Os valores **devem sempre ser
+> confrontados** com o protocolo institucional vigente, a bula atualizada dos
+> medicamentos e o julgamento clínico do prescritor/farmacêutico responsável
+> antes de qualquer decisão terapêutica. A base de dados
+> (`data/medicamentos.json` e `data/interacoes.json`) deve ser revisada e
+> validada pela farmácia clínica da instituição antes do uso em produção.
 
 ## Arquitetura
 
+O site é 100% estático: não depende de Python, Flask ou qualquer servidor de
+aplicação — apenas arquivos HTML/CSS/JS/JSON, que podem ser hospedados em
+qualquer servidor web comum (Apache, Nginx, GitHub Pages, Netlify, etc.).
+
 ```
-app.py                 Aplicação Flask (rotas web e API JSON)
-calculos.py             Motor de cálculo puro em Python (testável isoladamente)
-data/medicamentos.json  Base de medicamentos: doses de referência e apresentações
-data/interacoes.json    Base de interações medicamentosas conhecidas
-templates/index.html    Interface web (SPA simples com abas)
-static/css/style.css    Estilos
-static/js/app.js        Lógica do front-end (chamadas à API, renderização)
-tests/test_calculos.py  Testes unitários do motor de cálculo
+index.html                  Página única da aplicação (todas as abas)
+static/css/style.css        Estilos (tema pediátrico)
+static/img/logo.svg         Logo (usada como favicon e no cabeçalho/rodapé)
+static/js/calculos.js       Motor de cálculo em JavaScript (roda no navegador)
+static/js/app.js            Lógica de interface (abas, formulários, filtros)
+data/medicamentos.json      Base de medicamentos do ICAM (doses, apresentações)
+data/interacoes.json        Base de interações medicamentosas conhecidas
+
+calculos.py                 Motor de cálculo em Python — referência/validação
+scripts/gerar_dados.py      Fonte editável de data/medicamentos.json
+tests/test_calculos.py      Testes do motor Python + integridade dos dados
+tests/test_calculos.js      Testes do motor JavaScript (paridade com o Python)
 ```
 
-## Como executar
+`calculos.py` e seus testes **não são usados pelo site publicado** — servem
+como especificação de referência e ferramenta de validação de dados (rodada
+no CI). O que roda de fato no navegador é `static/js/calculos.js`, mantido
+deliberadamente espelhado à versão Python; `tests/test_calculos.js` verifica
+essa paridade nos casos principais.
+
+## Como executar localmente
+
+Como é um site estático, qualquer servidor HTTP simples funciona (o
+carregamento dos arquivos `data/*.json` via `fetch()` exige HTTP — não abra
+`index.html` diretamente pelo navegador com `file://`):
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-
-flask --app app run --debug
+python3 -m http.server 8000
+# ou: npx serve .
 ```
 
-Acesse http://localhost:5000 no navegador.
+Acesse http://localhost:8000 no navegador.
+
+## Como colocar em um servidor
+
+Basta copiar todo o conteúdo do repositório (ou pelo menos `index.html`,
+`static/` e `data/`) para a raiz pública de qualquer servidor web:
+
+- **Apache/Nginx**: copiar os arquivos para o `document root` do site.
+- **GitHub Pages**: ativar Pages apontando para a branch/pasta do repositório.
+- **Netlify/Vercel/Cloudflare Pages**: publish directory = raiz do projeto,
+  sem etapa de build.
+
+Não há variáveis de ambiente, banco de dados ou build step — é copiar e
+servir.
+
+## Como editar a base de medicamentos
+
+A forma recomendada é editar `scripts/gerar_dados.py` (lista `MEDICAMENTOS`,
+com comentários explicando cada campo) e rodar:
+
+```bash
+python3 scripts/gerar_dados.py
+```
+
+Isso regrava `data/medicamentos.json`. Para registrar uma nova interação,
+adicione um objeto em `data/interacoes.json` com o par de `id`s dos
+medicamentos, a gravidade (`leve`, `moderada` ou `grave`) e a descrição
+clínica da interação.
 
 ## Como rodar os testes
 
 ```bash
+# testes do motor de referência em Python + integridade dos dados
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
 pytest
+
+# testes do motor client-side em JavaScript (Node.js, sem dependências)
+node tests/test_calculos.js
 ```
-
-## Extensão da base de dados
-
-Para adicionar um novo medicamento, inclua um objeto em
-`data/medicamentos.json` seguindo o mesmo formato dos existentes (id, nome,
-classe, vias, apresentações, faixas de dose em mg/kg, intervalo posológico e
-doses máximas). Para registrar uma nova interação, adicione um objeto em
-`data/interacoes.json` com o par de `id`s dos medicamentos, a gravidade
-(`leve`, `moderada` ou `grave`) e a descrição clínica da interação.
-
-## API
-
-| Método | Rota                         | Descrição                                   |
-|--------|------------------------------|----------------------------------------------|
-| GET    | `/api/medicamentos`          | Lista os medicamentos cadastrados            |
-| POST   | `/api/calcular-dose`         | Calcula dose por peso                        |
-| POST   | `/api/calcular-dose-unitaria`| Calcula quantidade (mL, comprimidos, etc.)   |
-| POST   | `/api/calcular-frascos`      | Calcula número de frascos/ampolas necessários|
-| POST   | `/api/avaliar-prescricao`    | Avalia uma prescrição completa (doses + interações) |
 
 ## Integração contínua
 
-Todo push e pull request executam automaticamente a suíte de testes
-(`pytest`) via GitHub Actions (`.github/workflows/tests.yml`), em Python 3.11
-e 3.12.
+Todo push e pull request executam automaticamente, via GitHub Actions
+(`.github/workflows/tests.yml`): a suíte `pytest` (Python 3.11 e 3.12) e os
+testes do motor JavaScript (Node.js).
 
 ## Contribuindo
 

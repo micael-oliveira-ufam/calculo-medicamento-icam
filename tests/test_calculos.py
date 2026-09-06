@@ -132,7 +132,7 @@ def test_verificar_interacoes_encontra_par():
 def test_verificar_interacoes_sem_par():
     medicamentos_db = calculos.carregar_medicamentos()
     interacoes_db = calculos.carregar_interacoes()
-    resultado = calculos.verificar_interacoes(["paracetamol", "amoxicilina"], medicamentos_db, interacoes_db)
+    resultado = calculos.verificar_interacoes(["paracetamol", "amoxicilina_comp"], medicamentos_db, interacoes_db)
     assert resultado == []
 
 
@@ -140,7 +140,7 @@ def test_verificar_interacoes_multiplos_pares_ordenados_por_gravidade():
     medicamentos_db = calculos.carregar_medicamentos()
     interacoes_db = calculos.carregar_interacoes()
     resultado = calculos.verificar_interacoes(
-        ["midazolam", "morfina", "ibuprofeno", "prednisolona"], medicamentos_db, interacoes_db
+        ["midazolam", "morfina", "ibuprofeno_comp", "prednisolona_susp"], medicamentos_db, interacoes_db
     )
     assert len(resultado) == 2
     assert resultado[0].gravidade == "grave"

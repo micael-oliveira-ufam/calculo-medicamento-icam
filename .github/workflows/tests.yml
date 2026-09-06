@@ -23,5 +23,18 @@ jobs:
       - name: Instalar dependências
         run: pip install -r requirements.txt
 
-      - name: Rodar testes
+      - name: Validar dados (referência Python + integridade do dataset)
         run: pytest -v
+
+  js:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Rodar testes do motor de cálculo client-side
+        run: node tests/test_calculos.js

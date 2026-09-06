@@ -1,122 +1,842 @@
 [
   {
-    "medicamentos": ["gentamicina", "vancomicina"],
+    "medicamentos": [
+      "gentamicina",
+      "vancomicina"
+    ],
     "gravidade": "grave",
     "descricao": "Risco aumentado de nefrotoxicidade e ototoxicidade pela associação de dois fármacos nefro/ototóxicos. Monitorar função renal e níveis séricos."
   },
   {
-    "medicamentos": ["gentamicina", "furosemida"],
+    "medicamentos": [
+      "gentamicina",
+      "amicacina"
+    ],
+    "gravidade": "grave",
+    "descricao": "Associação de dois aminoglicosídeos não é recomendada; risco somado de nefro/ototoxicidade."
+  },
+  {
+    "medicamentos": [
+      "amicacina",
+      "vancomicina"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco aumentado de nefrotoxicidade e ototoxicidade pela associação de dois fármacos nefro/ototóxicos."
+  },
+  {
+    "medicamentos": [
+      "gentamicina",
+      "furosemida"
+    ],
     "gravidade": "grave",
     "descricao": "Diuréticos de alça potencializam a ototoxicidade dos aminoglicosídeos."
   },
   {
-    "medicamentos": ["vancomicina", "furosemida"],
+    "medicamentos": [
+      "amicacina",
+      "furosemida"
+    ],
+    "gravidade": "grave",
+    "descricao": "Diuréticos de alça potencializam a ototoxicidade dos aminoglicosídeos."
+  },
+  {
+    "medicamentos": [
+      "vancomicina",
+      "furosemida"
+    ],
     "gravidade": "moderada",
     "descricao": "Risco aumentado de ototoxicidade e nefrotoxicidade."
   },
   {
-    "medicamentos": ["fenitoina", "acido_valproico"],
+    "medicamentos": [
+      "gentamicina",
+      "anfotericina_b"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco somado de nefrotoxicidade grave pela associação de aminoglicosídeo e anfotericina B."
+  },
+  {
+    "medicamentos": [
+      "vancomicina",
+      "anfotericina_b"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco somado de nefrotoxicidade grave."
+  },
+  {
+    "medicamentos": [
+      "polimixina_b",
+      "gentamicina"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco somado de nefrotoxicidade; evitar associação quando possível."
+  },
+  {
+    "medicamentos": [
+      "polimixina_b",
+      "vancomicina"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aumentado de nefrotoxicidade."
+  },
+  {
+    "medicamentos": [
+      "gentamicina",
+      "atracurio"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Aminoglicosídeos potencializam o bloqueio neuromuscular; risco de bloqueio prolongado/apneia."
+  },
+  {
+    "medicamentos": [
+      "gentamicina",
+      "rocuronio"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Aminoglicosídeos potencializam o bloqueio neuromuscular; risco de bloqueio prolongado/apneia."
+  },
+  {
+    "medicamentos": [
+      "gentamicina",
+      "pancuronio"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Aminoglicosídeos potencializam o bloqueio neuromuscular; risco de bloqueio prolongado/apneia."
+  },
+  {
+    "medicamentos": [
+      "amicacina",
+      "rocuronio"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Aminoglicosídeos potencializam o bloqueio neuromuscular; risco de bloqueio prolongado/apneia."
+  },
+  {
+    "medicamentos": [
+      "fenitoina",
+      "valproato_xarope"
+    ],
     "gravidade": "moderada",
     "descricao": "Valproato desloca a fenitoína de sua ligação proteica e inibe seu metabolismo, podendo elevar a fração livre/toxicidade. Ajustar dose e monitorar níveis séricos."
   },
   {
-    "medicamentos": ["fenobarbital", "acido_valproico"],
+    "medicamentos": [
+      "fenobarbital_inj",
+      "valproato_xarope"
+    ],
     "gravidade": "moderada",
     "descricao": "Valproato inibe o metabolismo do fenobarbital, aumentando seus níveis séricos e risco de sedação excessiva."
   },
   {
-    "medicamentos": ["fenobarbital", "midazolam"],
-    "gravidade": "grave",
-    "descricao": "Associação de depressores do SNC com risco aumentado de depressão respiratória e sedação profunda."
-  },
-  {
-    "medicamentos": ["midazolam", "morfina"],
-    "gravidade": "grave",
-    "descricao": "Risco aumentado de depressão respiratória e sedação profunda pela associação de benzodiazepínico e opioide."
-  },
-  {
-    "medicamentos": ["morfina", "tramadol"],
-    "gravidade": "grave",
-    "descricao": "Associação de opioides aumenta risco de depressão respiratória e sedação; geralmente não recomendada."
-  },
-  {
-    "medicamentos": ["fenobarbital", "morfina"],
-    "gravidade": "grave",
-    "descricao": "Risco aumentado de depressão respiratória e sedação profunda."
-  },
-  {
-    "medicamentos": ["tramadol", "ondansetrona"],
+    "medicamentos": [
+      "fenobarbital_comp",
+      "valproato_xarope"
+    ],
     "gravidade": "moderada",
-    "descricao": "Ondansetrona pode reduzir o efeito analgésico do tramadol e ambos aumentam risco de síndrome serotoninérgica e prolongamento do QT."
+    "descricao": "Valproato inibe o metabolismo do fenobarbital, aumentando seus níveis séricos e risco de sedação excessiva."
   },
   {
-    "medicamentos": ["azitromicina", "ondansetrona"],
+    "medicamentos": [
+      "fenobarbital_susp",
+      "valproato_xarope"
+    ],
     "gravidade": "moderada",
-    "descricao": "Risco aditivo de prolongamento do intervalo QT. Considerar ECG se uso prolongado ou fatores de risco associados."
+    "descricao": "Valproato inibe o metabolismo do fenobarbital, aumentando seus níveis séricos e risco de sedação excessiva."
   },
   {
-    "medicamentos": ["claritromicina", "ondansetrona"],
+    "medicamentos": [
+      "carbamazepina_comp",
+      "valproato_xarope"
+    ],
     "gravidade": "moderada",
-    "descricao": "Risco aditivo de prolongamento do intervalo QT."
+    "descricao": "Interação bidirecional complexa: pode alterar níveis séricos de ambos os anticonvulsivantes. Monitorar clinicamente e com níveis séricos."
   },
   {
-    "medicamentos": ["azitromicina", "claritromicina"],
+    "medicamentos": [
+      "carbamazepina_susp",
+      "valproato_xarope"
+    ],
     "gravidade": "moderada",
-    "descricao": "Uso concomitante de dois macrolídeos não é recomendado; risco somado de prolongamento de QT e efeitos adversos gastrointestinais."
+    "descricao": "Interação bidirecional complexa: pode alterar níveis séricos de ambos os anticonvulsivantes."
   },
   {
-    "medicamentos": ["ibuprofeno", "prednisolona"],
+    "medicamentos": [
+      "claritromicina_susp",
+      "carbamazepina_comp"
+    ],
     "gravidade": "moderada",
-    "descricao": "Associação de AINE com corticosteroide aumenta o risco de sangramento e ulceração gastrointestinal."
+    "descricao": "Macrolídeos inibem o CYP3A4 e podem aumentar níveis séricos de carbamazepina, com risco de toxicidade."
   },
   {
-    "medicamentos": ["ibuprofeno", "dexametasona"],
-    "gravidade": "moderada",
-    "descricao": "Associação de AINE com corticosteroide aumenta o risco de sangramento e ulceração gastrointestinal."
-  },
-  {
-    "medicamentos": ["ibuprofeno", "hidrocortisona"],
-    "gravidade": "moderada",
-    "descricao": "Associação de AINE com corticosteroide aumenta o risco de sangramento e ulceração gastrointestinal."
-  },
-  {
-    "medicamentos": ["ibuprofeno", "gentamicina"],
-    "gravidade": "moderada",
-    "descricao": "AINEs podem reduzir a perfusão renal e potencializar a nefrotoxicidade dos aminoglicosídeos."
-  },
-  {
-    "medicamentos": ["ceftriaxona", "sulfato_magnesio"],
-    "gravidade": "leve",
-    "descricao": "Não misturar na mesma via/solução; ceftriaxona não deve ser administrada com soluções contendo cálcio ou outros sais divalentes na mesma linha EV, especialmente em neonatos."
-  },
-  {
-    "medicamentos": ["claritromicina", "acido_valproico"],
+    "medicamentos": [
+      "claritromicina_susp",
+      "valproato_xarope"
+    ],
     "gravidade": "moderada",
     "descricao": "Macrolídeos são inibidores enzimáticos e podem alterar o metabolismo de outros fármacos; monitorar níveis e efeitos adversos."
   },
   {
-    "medicamentos": ["omeprazol", "fenitoina"],
+    "medicamentos": [
+      "claritromicina_inj",
+      "valproato_xarope"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Macrolídeos são inibidores enzimáticos e podem alterar o metabolismo de outros fármacos; monitorar níveis e efeitos adversos."
+  },
+  {
+    "medicamentos": [
+      "omeprazol_inj",
+      "fenitoina"
+    ],
     "gravidade": "leve",
     "descricao": "Omeprazol pode inibir o metabolismo da fenitoína (CYP2C19), aumentando seus níveis séricos."
   },
   {
-    "medicamentos": ["furosemida", "dexametasona"],
+    "medicamentos": [
+      "omeprazol_comp",
+      "fenitoina"
+    ],
+    "gravidade": "leve",
+    "descricao": "Omeprazol pode inibir o metabolismo da fenitoína (CYP2C19), aumentando seus níveis séricos."
+  },
+  {
+    "medicamentos": [
+      "fenobarbital_inj",
+      "midazolam"
+    ],
+    "gravidade": "grave",
+    "descricao": "Associação de depressores do SNC com risco aumentado de depressão respiratória e sedação profunda."
+  },
+  {
+    "medicamentos": [
+      "fenobarbital_comp",
+      "midazolam"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Associação de depressores do SNC com risco aumentado de sedação e depressão respiratória."
+  },
+  {
+    "medicamentos": [
+      "midazolam",
+      "morfina"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco aumentado de depressão respiratória e sedação profunda pela associação de benzodiazepínico e opioide."
+  },
+  {
+    "medicamentos": [
+      "midazolam",
+      "fentanil"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco aumentado de depressão respiratória e sedação profunda pela associação de benzodiazepínico e opioide."
+  },
+  {
+    "medicamentos": [
+      "midazolam",
+      "tramadol"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco aumentado de depressão respiratória e sedação; associação com opioides deve ser monitorada de perto."
+  },
+  {
+    "medicamentos": [
+      "midazolam",
+      "dexmedetomidina"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Efeito sedativo aditivo; risco de sedação excessiva, hipotensão e bradicardia."
+  },
+  {
+    "medicamentos": [
+      "midazolam",
+      "propofol"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Efeito sedativo/depressor respiratório aditivo; ajustar doses sob monitorização contínua."
+  },
+  {
+    "medicamentos": [
+      "morfina",
+      "tramadol"
+    ],
+    "gravidade": "grave",
+    "descricao": "Associação de opioides aumenta risco de depressão respiratória e sedação; geralmente não recomendada."
+  },
+  {
+    "medicamentos": [
+      "morfina",
+      "fentanil"
+    ],
+    "gravidade": "grave",
+    "descricao": "Associação de opioides aumenta risco de depressão respiratória e sedação; geralmente não recomendada."
+  },
+  {
+    "medicamentos": [
+      "fenobarbital_inj",
+      "morfina"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco aumentado de depressão respiratória e sedação profunda."
+  },
+  {
+    "medicamentos": [
+      "fenobarbital_inj",
+      "tramadol"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Fenobarbital pode reduzir o efeito analgésico do tramadol e a combinação aumenta sedação e depressão do SNC."
+  },
+  {
+    "medicamentos": [
+      "clonazepam_comp",
+      "morfina"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco aumentado de depressão respiratória e sedação profunda (associação benzodiazepínico + opioide)."
+  },
+  {
+    "medicamentos": [
+      "clonazepam_gts",
+      "morfina"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco aumentado de depressão respiratória e sedação profunda (associação benzodiazepínico + opioide)."
+  },
+  {
+    "medicamentos": [
+      "diazepam_inj",
+      "morfina"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco aumentado de depressão respiratória e sedação profunda (associação benzodiazepínico + opioide)."
+  },
+  {
+    "medicamentos": [
+      "diazepam_inj",
+      "fentanil"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco aumentado de depressão respiratória e sedação profunda."
+  },
+  {
+    "medicamentos": [
+      "tramadol",
+      "ondansetrona"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Ondansetrona pode reduzir o efeito analgésico do tramadol e ambos aumentam risco de síndrome serotoninérgica e prolongamento do QT."
+  },
+  {
+    "medicamentos": [
+      "tramadol",
+      "linezolida"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco de síndrome serotoninérgica pela associação de tramadol (serotonérgico) com linezolida (inibidor da MAO fraco)."
+  },
+  {
+    "medicamentos": [
+      "tramadol",
+      "fluoxetina"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco de síndrome serotoninérgica pela associação de tramadol com ISRS."
+  },
+  {
+    "medicamentos": [
+      "linezolida",
+      "fluoxetina"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco de síndrome serotoninérgica; associação geralmente contraindicada."
+  },
+  {
+    "medicamentos": [
+      "azitromicina_comp",
+      "ondansetrona"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT. Considerar ECG se uso prolongado ou fatores de risco associados."
+  },
+  {
+    "medicamentos": [
+      "azitromicina_susp",
+      "ondansetrona"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT. Considerar ECG se uso prolongado ou fatores de risco associados."
+  },
+  {
+    "medicamentos": [
+      "claritromicina_susp",
+      "ondansetrona"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT."
+  },
+  {
+    "medicamentos": [
+      "claritromicina_inj",
+      "ondansetrona"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT."
+  },
+  {
+    "medicamentos": [
+      "azitromicina_comp",
+      "claritromicina_susp"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Uso concomitante de dois macrolídeos não é recomendado; risco somado de prolongamento de QT e efeitos adversos gastrointestinais."
+  },
+  {
+    "medicamentos": [
+      "azitromicina_susp",
+      "claritromicina_susp"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Uso concomitante de dois macrolídeos não é recomendado; risco somado de prolongamento de QT e efeitos adversos gastrointestinais."
+  },
+  {
+    "medicamentos": [
+      "azitromicina_comp",
+      "haloperidol_inj"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT."
+  },
+  {
+    "medicamentos": [
+      "azitromicina_susp",
+      "haloperidol_inj"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT."
+  },
+  {
+    "medicamentos": [
+      "azitromicina_comp",
+      "haloperidol_comp"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT."
+  },
+  {
+    "medicamentos": [
+      "azitromicina_susp",
+      "haloperidol_comp"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT."
+  },
+  {
+    "medicamentos": [
+      "haloperidol_inj",
+      "ondansetrona"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT."
+  },
+  {
+    "medicamentos": [
+      "haloperidol_comp",
+      "ondansetrona"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT."
+  },
+  {
+    "medicamentos": [
+      "metadona",
+      "ondansetrona"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT."
+  },
+  {
+    "medicamentos": [
+      "azitromicina_comp",
+      "metadona"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT."
+  },
+  {
+    "medicamentos": [
+      "azitromicina_susp",
+      "metadona"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT."
+  },
+  {
+    "medicamentos": [
+      "metadona",
+      "haloperidol_inj"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco somado de prolongamento acentuado do intervalo QT e torsades de pointes."
+  },
+  {
+    "medicamentos": [
+      "domperidona",
+      "ondansetrona"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco aditivo de prolongamento do intervalo QT."
+  },
+  {
+    "medicamentos": [
+      "domperidona",
+      "claritromicina_susp"
+    ],
+    "gravidade": "grave",
+    "descricao": "Claritromicina inibe o metabolismo (CYP3A4) da domperidona, aumentando risco de prolongamento de QT; associação não recomendada."
+  },
+  {
+    "medicamentos": [
+      "ibuprofeno_comp",
+      "prednisolona_susp"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Associação de AINE com corticosteroide aumenta o risco de sangramento e ulceração gastrointestinal."
+  },
+  {
+    "medicamentos": [
+      "ibuprofeno_gts",
+      "prednisolona_susp"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Associação de AINE com corticosteroide aumenta o risco de sangramento e ulceração gastrointestinal."
+  },
+  {
+    "medicamentos": [
+      "ibuprofeno_comp",
+      "dexametasona_inj"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Associação de AINE com corticosteroide aumenta o risco de sangramento e ulceração gastrointestinal."
+  },
+  {
+    "medicamentos": [
+      "ibuprofeno_gts",
+      "dexametasona_elixir"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Associação de AINE com corticosteroide aumenta o risco de sangramento e ulceração gastrointestinal."
+  },
+  {
+    "medicamentos": [
+      "ibuprofeno_comp",
+      "hidrocortisona"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Associação de AINE com corticosteroide aumenta o risco de sangramento e ulceração gastrointestinal."
+  },
+  {
+    "medicamentos": [
+      "tenoxicam",
+      "prednisolona_susp"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Associação de AINE com corticosteroide aumenta o risco de sangramento e ulceração gastrointestinal."
+  },
+  {
+    "medicamentos": [
+      "tenoxicam",
+      "dexametasona_inj"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Associação de AINE com corticosteroide aumenta o risco de sangramento e ulceração gastrointestinal."
+  },
+  {
+    "medicamentos": [
+      "ibuprofeno_comp",
+      "gentamicina"
+    ],
+    "gravidade": "moderada",
+    "descricao": "AINEs podem reduzir a perfusão renal e potencializar a nefrotoxicidade dos aminoglicosídeos."
+  },
+  {
+    "medicamentos": [
+      "ibuprofeno_gts",
+      "gentamicina"
+    ],
+    "gravidade": "moderada",
+    "descricao": "AINEs podem reduzir a perfusão renal e potencializar a nefrotoxicidade dos aminoglicosídeos."
+  },
+  {
+    "medicamentos": [
+      "ibuprofeno_comp",
+      "enoxaparina"
+    ],
+    "gravidade": "moderada",
+    "descricao": "AINEs aumentam o risco de sangramento em pacientes anticoagulados."
+  },
+  {
+    "medicamentos": [
+      "ibuprofeno_gts",
+      "enoxaparina"
+    ],
+    "gravidade": "moderada",
+    "descricao": "AINEs aumentam o risco de sangramento em pacientes anticoagulados."
+  },
+  {
+    "medicamentos": [
+      "aas",
+      "enoxaparina"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco aumentado de sangramento pela associação de antiagregante plaquetário e anticoagulante."
+  },
+  {
+    "medicamentos": [
+      "ceftriaxona",
+      "sulfato_magnesio"
+    ],
+    "gravidade": "leve",
+    "descricao": "Não misturar na mesma via/solução; ceftriaxona não deve ser administrada com soluções contendo cálcio ou outros sais divalentes na mesma linha EV, especialmente em neonatos."
+  },
+  {
+    "medicamentos": [
+      "ceftriaxona",
+      "gliconato_calcio"
+    ],
+    "gravidade": "grave",
+    "descricao": "Risco de formação de precipitados fatais (ceftriaxona-cálcio) em neonatos; nunca administrar simultaneamente pela mesma via, mesmo em linhas diferentes no mesmo paciente < 28 dias."
+  },
+  {
+    "medicamentos": [
+      "furosemida",
+      "dexametasona_inj"
+    ],
     "gravidade": "leve",
     "descricao": "Corticosteroides podem potencializar a perda de potássio induzida pelo diurético de alça; monitorar eletrólitos."
   },
   {
-    "medicamentos": ["furosemida", "hidrocortisona"],
+    "medicamentos": [
+      "furosemida",
+      "hidrocortisona"
+    ],
     "gravidade": "leve",
     "descricao": "Corticosteroides podem potencializar a perda de potássio induzida pelo diurético de alça; monitorar eletrólitos."
   },
   {
-    "medicamentos": ["salbutamol", "furosemida"],
+    "medicamentos": [
+      "furosemida",
+      "metilprednisolona"
+    ],
+    "gravidade": "leve",
+    "descricao": "Corticosteroides podem potencializar a perda de potássio induzida pelo diurético de alça; monitorar eletrólitos."
+  },
+  {
+    "medicamentos": [
+      "salbutamol_nebulizacao",
+      "furosemida"
+    ],
     "gravidade": "leve",
     "descricao": "Risco somado de hipocalemia; monitorar eletrólitos em uso concomitante frequente."
   },
   {
-    "medicamentos": ["tramadol", "fenobarbital"],
+    "medicamentos": [
+      "salbutamol_xarope",
+      "furosemida"
+    ],
+    "gravidade": "leve",
+    "descricao": "Risco somado de hipocalemia; monitorar eletrólitos em uso concomitante frequente."
+  },
+  {
+    "medicamentos": [
+      "salbutamol_nebulizacao",
+      "brometo_ipratropio"
+    ],
+    "gravidade": "leve",
+    "descricao": "Associação sinérgica intencional (broncodilatação); não é uma interação de risco, apenas atenção a taquicardia/tremor aditivos."
+  },
+  {
+    "medicamentos": [
+      "espironolactona",
+      "captopril"
+    ],
     "gravidade": "moderada",
-    "descricao": "Fenobarbital pode reduzir o efeito analgésico do tramadol e a combinação aumenta sedação e depressão do SNC."
+    "descricao": "Risco de hipercalemia pela associação de poupador de potássio com IECA. Monitorar potássio sérico."
+  },
+  {
+    "medicamentos": [
+      "espironolactona",
+      "cloreto_potassio_xarope"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco de hipercalemia; evitar suplementação de potássio associada a poupador de potássio sem monitorização."
+  },
+  {
+    "medicamentos": [
+      "captopril",
+      "cloreto_potassio_xarope"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Risco de hipercalemia pela associação de IECA com suplementação de potássio."
+  },
+  {
+    "medicamentos": [
+      "captopril",
+      "losartana"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Duplo bloqueio do sistema renina-angiotensina; risco aumentado de hipercalemia, hipotensão e disfunção renal, sem benefício clínico adicional comprovado."
+  },
+  {
+    "medicamentos": [
+      "haloperidol_inj",
+      "haloperidol_comp"
+    ],
+    "gravidade": "leve",
+    "descricao": "Verificar duplicidade terapêutica: mesma substância prescrita por duas vias/apresentações diferentes."
+  },
+  {
+    "medicamentos": [
+      "propofol",
+      "fentanil"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Efeito sedativo e depressor respiratório/cardiovascular aditivo; ajustar doses sob monitorização contínua."
+  },
+  {
+    "medicamentos": [
+      "propofol",
+      "morfina"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Efeito sedativo e depressor respiratório/cardiovascular aditivo; ajustar doses sob monitorização contínua."
+  },
+  {
+    "medicamentos": [
+      "dexmedetomidina",
+      "fentanil"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Efeito sedativo aditivo com risco de bradicardia e hipotensão; monitorar sinais vitais."
+  },
+  {
+    "medicamentos": [
+      "dexmedetomidina",
+      "morfina"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Efeito sedativo aditivo com risco de bradicardia e hipotensão; monitorar sinais vitais."
+  },
+  {
+    "medicamentos": [
+      "suxametonio",
+      "atracurio"
+    ],
+    "gravidade": "leve",
+    "descricao": "Verificar indicação: uso sequencial de bloqueadores neuromusculares deve seguir protocolo de intubação (não administrar simultaneamente sem indicação)."
+  },
+  {
+    "medicamentos": [
+      "naloxona",
+      "morfina"
+    ],
+    "gravidade": "leve",
+    "descricao": "Naloxona reverte o efeito analgésico da morfina; uso intencional apenas em reversão de intoxicação/depressão respiratória, não como coadjuvante de rotina."
+  },
+  {
+    "medicamentos": [
+      "naloxona",
+      "fentanil"
+    ],
+    "gravidade": "leve",
+    "descricao": "Naloxona reverte o efeito analgésico do fentanil; uso intencional apenas em reversão de intoxicação/depressão respiratória."
+  },
+  {
+    "medicamentos": [
+      "flumazenil",
+      "midazolam"
+    ],
+    "gravidade": "leve",
+    "descricao": "Flumazenil reverte o efeito sedativo do midazolam; uso intencional em reversão, pode precipitar convulsões em uso crônico de benzodiazepínicos."
+  },
+  {
+    "medicamentos": [
+      "sugamadex",
+      "rocuronio"
+    ],
+    "gravidade": "leve",
+    "descricao": "Sugamadex reverte especificamente o bloqueio neuromuscular do rocurônio; uso intencional, não uma interação adversa."
+  },
+  {
+    "medicamentos": [
+      "clorpromazina",
+      "haloperidol_inj"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Associação de dois antipsicóticos aumenta risco de sedação excessiva, hipotensão e prolongamento de QT."
+  },
+  {
+    "medicamentos": [
+      "clorpromazina",
+      "morfina"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Efeito sedativo e hipotensor aditivo."
+  },
+  {
+    "medicamentos": [
+      "risperidona",
+      "haloperidol_comp"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Associação de dois antipsicóticos aumenta risco de efeitos extrapiramidais e sedação."
+  },
+  {
+    "medicamentos": [
+      "lamotrigina",
+      "valproato_xarope"
+    ],
+    "gravidade": "grave",
+    "descricao": "Valproato inibe o metabolismo da lamotrigina, aumentando muito o risco de rash grave (síndrome de Stevens-Johnson); exige titulação muito mais lenta e cautelosa."
+  },
+  {
+    "medicamentos": [
+      "lamotrigina",
+      "carbamazepina_comp"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Carbamazepina induz o metabolismo da lamotrigina, reduzindo seus níveis séricos; pode exigir ajuste de dose."
+  },
+  {
+    "medicamentos": [
+      "clobazam",
+      "valproato_xarope"
+    ],
+    "gravidade": "leve",
+    "descricao": "Valproato pode aumentar níveis do metabólito ativo do clobazam; monitorar sedação."
+  },
+  {
+    "medicamentos": [
+      "fluoxetina",
+      "haloperidol_inj"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Fluoxetina inibe o metabolismo do haloperidol (CYP2D6), podendo aumentar seus níveis séricos e efeitos extrapiramidais."
+  },
+  {
+    "medicamentos": [
+      "metadona",
+      "fenobarbital_inj"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Fenobarbital induz o metabolismo da metadona, podendo reduzir seu efeito e precipitar sintomas de abstinência."
+  },
+  {
+    "medicamentos": [
+      "metadona",
+      "carbamazepina_comp"
+    ],
+    "gravidade": "moderada",
+    "descricao": "Carbamazepina induz o metabolismo da metadona, podendo reduzir seu efeito analgésico."
   }
 ]
